@@ -3,10 +3,10 @@ The Anadromi Project (TAP) is an innovative approach to computer science educati
 
 # Prerequisites
 Students should have be comfortable the basic concepts of programming: 
-* knowledge variables
-* loops
-* conditionals
-* functions
+* Variables and simple data types
+* Loops
+* Conditionals operators
+* Functions
 
 # The Syllabus
 ## Stage 1: Hill Climbing
