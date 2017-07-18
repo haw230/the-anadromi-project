@@ -6,7 +6,7 @@ Students should have learned the basic concepts of programming: knowledge variab
 
 # The Syllabus
 ## Stage 1: Hill Climbing
-This stage will focus on simple but inefficent algorithms that neatly fuse the basics of programming and prepares the student for more advanced concepts.
+This stage will focus on simple but inefficent algorithms that neatly fuse the basics of programming, preparing the student for more advanced concepts.
 ### Linear Search
 Students will start off with a basic implementation of a linear search, a search algorithm that finds the index of a specific element in a list.
 
@@ -17,13 +17,13 @@ This program will use the selection sort algorithm to sort an unordered list.
 Another algorithm exercise to practice coding skills.
 
 ### Time Complexity
-TAP will introduce a rather abstract concept early on in order to demonstrate the efficency of the previously learned algorithms. Time complexity provides a nice segway into recursion and answers the question to *why* we need these efficent yet terribly complex algorithms.
+This rather abstract concept is introduced rather early on in order to demonstrate the efficency of the previously learned algorithms. Time complexity provides a nice segway into recursion and answers the question to *why* we need these efficent yet terribly complex algorithms.
 
 ## Stage 2: Gaining Speed
 This stage focuses on the transition to more complicated algorithms that introduce recursion.
 
 ### Binary Search
-Binary search is a searching algorithm that works only on ordered lists, though far faster than the previous linear search. The theory behind it is not difficult to understand, but it will include the Three Laws of Recursion and feature its application.
+Binary search is a searching algorithm that works only on ordered lists, though far faster than the previous linear search. The theory behind it is not difficult to understand, but it will introduce the Three Laws of Recursion and feature its application.
 
 ### Merge Sort
 Merge sort builds on the recursive foundation binary search introduced previously, sorting a list far faster than selection sort and bubble sort by a large margin.
