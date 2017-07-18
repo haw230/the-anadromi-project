@@ -5,7 +5,7 @@ The Anadromi Project (TAP) is an innovative approach to computer science educati
 Students should have be comfortable the basic concepts of programming: 
 * Variables and simple data types
 * Loops
-* Conditionals operators
+* Conditional operators
 * Functions
 
 # The Syllabus
@@ -36,7 +36,7 @@ Merge sort builds on the recursive foundation binary search introduced previousl
 The most modern of sorting algorithms, quicksort depicts the mastery of recursion and shows readiness to move onto dynamic programming.
 
 ## Stage 3: At the Top
-Using all of the previous knowledge, the student will create multiple solutions to the knapsack problem while learning even more algorithms.
+Using everything learned from the previous lessons, the student will create different algorithmic solutions to the knapsack problem while learning even more algorithms.
 
 ### Knapsack Problem: Greedy
 Imagine that you have an empty bag which  you must fill with items, each of these items containing an arbitrary value and cost when taken. What would you take? How can you take the *best* choice? This particular implementation will focus on the greedy algorithm, the philosophy of taking what seems to be the most valuable at the moment.
