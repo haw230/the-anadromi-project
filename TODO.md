@@ -15,7 +15,7 @@
 - [ ] Have test results printed to console
 
 ### Lessons
-#### Stage 1: Hill Climning
+#### Stage 1: Hill Climbing
 - [ ] Selection search
 - [ ] Selection sort
 - [ ] Bubble sort
