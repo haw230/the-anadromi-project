@@ -12,4 +12,4 @@ import sys
 print(sys.path) #prints out all module search paths
 sys.path.insert(0, '/path/to/file')
 ```
-Use ```python print(sys.path)``` to check whether or not the right paths are there, then use ```python sys.insert(0, '/path/to/file')``` to add the path.
+Use `print(sys.path)` to check whether or not the right paths are there, then use `sys.insert(0, '/path/to/file')` to add the path.
