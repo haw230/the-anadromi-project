@@ -4,10 +4,10 @@ The Anadromi Project (TAP) is an innovative approach to computer science educati
 ## Table of Contents
 1. [Prerequisites](#prerequisites)
 2. [Stage 1: Hill Climbing](#stage-1-hill-climbing)   
-    2.1 [Linear Search](#linear-search)
-    2.2 [Selection Sort](#selection-sort)
-    2.3 [Bubble Sort](#bubble-sort)
-    2.4 [Time Complexity](#time-complexity)
+    * [Linear Search](#linear-search)
+    * [Selection Sort](#selection-sort)
+    * [Bubble Sort](#bubble-sort)
+    * [Time Complexity](#time-complexity)
 
 ## Prerequisites
 Students should have be comfortable the basic concepts of programming: 
