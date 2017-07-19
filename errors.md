@@ -2,9 +2,9 @@
 Just type '/' at the end of name when making a file.
 
 #### Python not finding modules [Solved]
-..* Remember to have the __init__.py file
-..* Remember to have the right path
-..* Python only searches what is in PYTHONPATH (sys.path), so their parent directories are ignored
+* Remember to have the ```__init__.py``` file
+* Remember to have the right path
+* Python only searches what is in PYTHONPATH (sys.path), so their parent directories are ignored
 
 ```python
 import sys
