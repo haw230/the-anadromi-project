@@ -75,6 +75,6 @@ Dynamic programming will build on the binary search tree implementation, improvi
 The Anadromi Project is released under the terms of the [MIT License](http://www.opensource.org/licenses/MIT "MIT License").
 
 ## Acknowledgements
-* [University of Alberta](https://www.ualberta.ca/ "University of Alberta")'s [High School Internship Program](https://www.ualberta.ca/computing-science/explore/hs-internships "High School Internship Program")
+* University of Alberta's [High School Internship Program](https://www.ualberta.ca/computing-science/explore/hs-internships "High School Internship Program")
 * Supervisor Cody Steinke and Owen MacLeod
-* Seth Hinz for work on logo
+* [Seth Hinz](https://github.com/shinzlet) for creating the logo
