@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/img/markdownify.png" alt="Markdownify" width="200"></a>
+  <a href="https://github.com/haw230/the-anadromi-project"><img src="https://github.com/haw230/the-anadromi-project/blob/smaller-font/anadromi_logo.png" alt="Markdownify" width="200"></a>
   <br>
-  Electron Markdownify
+  The Anadromi Project
   <br>
 </h1>
 The Anadromi Project (TAP) is an innovative approach to computer science education. Armed with Python, this revolutionary open source program focuses on teaching the bright leaders of tomorrow necessary tools for **recursion** and **algorithmic thinking**. These skills are applicable and essential to both the computer science field as well as other disciplinaries.
