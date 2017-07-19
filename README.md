@@ -8,6 +8,8 @@ The Anadromi Project (TAP) is an innovative approach to computer science educati
     * [Selection Sort](#selection-sort)
     * [Bubble Sort](#bubble-sort)
     * [Time Complexity](#time-complexity)
+3. [Stage 2: Gaining Speed](#gaining-speed)
+    * [Binary Search](#binary-search)
 
 ## Prerequisites
 Students should have be comfortable the basic concepts of programming: 
