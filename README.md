@@ -10,6 +10,12 @@ The Anadromi Project (TAP) is an innovative approach to computer science educati
     * [Time Complexity](#time-complexity)
 3. [Stage 2: Gaining Speed](#gaining-speed)
     * [Binary Search](#binary-search)
+    * [Merge Sort](#merge-sort)
+    * [Quicksort](#quicksort)
+4. [Stage 3: At the Top](#stage-3-at-the-top)
+    * [Greedy](#greedy)
+    * [Binary Search Tree](#binary-search-tree)
+    * [Dynamic Programming](#dynamic-programming)
 
 ## Prerequisites
 Students should have be comfortable the basic concepts of programming: 
@@ -47,11 +53,11 @@ The most modern of sorting algorithms, quicksort depicts the mastery of recursio
 ## Stage 3: At the Top
 Using everything learned from the previous lessons, the student will create different algorithmic solutions to the knapsack problem. This is the capstone project of the program.
 
-### Knapsack Problem: Greedy
+### Greedy
 Imagine that you have an empty bag which  you must fill with items, each of these items containing an arbitrary value and cost when taken. What would you take? How can you take the *best* choice? This particular implementation will focus on the greedy algorithm, the philosophy of taking what seems to be the most valuable at the moment.
 
-### Knapsack Problem: Binary Search Tree
+### Binary Search Tree
 Rather than greedily taking whatever is most valuable, the binary search tree algorithm will search **all** combinations of items and then decide what is *best*.
 
-### Knapsack Problem: Dynamic Programming
+### Dynamic Programming
 Dynamic programming will build on the binary search tree implementation, improving the efficency of the program.
