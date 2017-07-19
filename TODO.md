@@ -2,15 +2,21 @@
 
 ### Miscellaneous
 - [x] Come up with a cool name
+- [ ] Get a cool logo
 - [x] Finish README.md
 - [x] Create sub-directories for each lesson
 - [ ] Make C9 and GitHub intro
-- [ ] Learn Makefil
-- [ ] Learn pytest-cov and tox
 
-### Selection Sort
-- [x] Create the repo
-- [ ] Write solution
+### Testing
+- [x] Solve "module not found" error
 - [x] Get unittest working
-- [ ] Make unittest store tests
-- [ ] Finish lesson
+- [ ] Learn Makefile
+- [ ] Learn pytest-cov and tox
+- [ ] Have test results printed to console
+
+### Lessons
+#### Stage 1: Hill Climning
+- [ ] Selection search
+- [ ] Selection sort
+- [ ] Bubble sort
+- [ ] Time complexity
