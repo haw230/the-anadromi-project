@@ -24,6 +24,7 @@ The Anadromi Project (TAP) is an innovative approach to computer science educati
     * [Binary Search Tree](#binary-search-tree)
     * [Dynamic Programming](#dynamic-programming)
 5. [License](#license)
+6. [Acknowledgements](#acknowledgements)
 
 ## Prerequisites
 Students should have be comfortable the basic concepts of programming: 
@@ -71,4 +72,9 @@ Rather than greedily taking whatever is most valuable, the binary search tree al
 Dynamic programming will build on the binary search tree implementation, improving the efficency of the program.
 
 ## License
-The Anadromi Project is licensed under the terms of the MIT licence amd is available for free.
+The Anadromi Project is released under the terms of the [MIT License](http://www.opensource.org/licenses/MIT "MIT License").
+
+## Acknowledgements
+* [University of Alberta](https://www.ualberta.ca/ "University of Alberta")'s [High School Internship Program](https://www.ualberta.ca/computing-science/explore/hs-internships "High School Internship Program")
+* Supervisor Cody Steinke and Owen MacLeod
+* Seth Hinz for work on logo
