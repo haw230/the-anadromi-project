@@ -75,5 +75,5 @@ The Anadromi Project is released under the terms of the [MIT License](http://www
 
 ## Acknowledgements
 * University of Alberta's [High School Internship Program](https://www.ualberta.ca/computing-science/explore/hs-internships "High School Internship Program")
-* Supervisor Cody Steinke and Owen MacLeod
-* [Seth Hinz](https://github.com/shinzlet) for creating the logo
+* Supervisors Cody Steinke and Owen MacLeod
+* Logo designer [Seth Hinz](https://github.com/shinzlet)
