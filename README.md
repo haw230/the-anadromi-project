@@ -4,6 +4,7 @@ The Anadromi Project (TAP) is an innovative approach to computer science educati
 ## Table of Contents
 1. [Prerequisites](#prerequisites)
 2. [Stage 1: Hill Climbing](#stage-1-hill-climbing)
+    
     2.1 [Linear Search](#linear-search)
 
 ## Prerequisites
