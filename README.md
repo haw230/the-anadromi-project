@@ -1,5 +1,4 @@
 <h1 align="center">
-  <br>
   <a href="https://github.com/haw230/the-anadromi-project"><img src="https://github.com/haw230/the-anadromi-project/blob/smaller-font/anadromi_logo.png" alt="Markdownify" width="170"></a>
   <br>
   The Anadromi Project
