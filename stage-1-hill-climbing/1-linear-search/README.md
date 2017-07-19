@@ -1,4 +1,4 @@
-# Selection Search
+# Linear Search
 
 If I had a list (a collection of numbers) and I wanted to locate a specific item in the list, how would I search it? Take 
 
