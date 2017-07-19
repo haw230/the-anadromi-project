@@ -2,7 +2,7 @@
 
 ### Miscellaneous
 - [x] Come up with a cool name
-- [ ] Get a cool logo
+- [x] Get a cool logo
 - [x] Finish README.md
 - [x] Create sub-directories for each lesson
 - [ ] Make C9 and GitHub intro
