@@ -9,3 +9,4 @@
 * ```pwd``` finds current path
 * ```deactivate``` deactivates virtual machine
 * ```cd /home/ubuntu/workspace``` in case you ever cd out of workspace
+* ```pip install -r dev-requirements.txt``` installs necessary modules in txt
