@@ -18,4 +18,5 @@
 * ```sys.path.insert(0, "/path/to/module")``` inserts to PYTHONPATH
 
 # iPython
-* ```%paste``` pastes code
+* ```%paste``` pastes code for you
+* ```%autoindent``` can paste code without random indents
