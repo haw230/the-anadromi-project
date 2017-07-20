@@ -9,9 +9,8 @@
 
 ### Testing
 - [x] Solve "module not found" error
-- [x] Get unittest working
+- [x] Get pytest working
 - [ ] Learn Makefile
-- [ ] Learn pytest-cov and tox
 - [ ] Have test results printed to console
 
 ### Lessons
