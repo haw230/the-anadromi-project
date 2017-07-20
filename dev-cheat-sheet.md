@@ -12,7 +12,7 @@
 * ```pip install -r dev-requirements.txt``` installs necessary modules in txt
 * ```pip install -U module-name``` installs or upgrades module
 
-# c9 Keybindings
+# C9 Keybindings
 * ```tab``` indents highlighted text
 * ```tab``` + ```shift``` outdents highlighted text
 
