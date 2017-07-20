@@ -10,6 +10,6 @@ Just type '/' at the end of name when making a file.
 import sys
 
 print(sys.path) #prints out all module search paths
-sys.path.insert(0, '/path/to/file')
+sys.path.insert(0, '/path/to/file') #adds path to the front(in case of duplicates checked before
 ```
 Use `print(sys.path)` to check whether or not the right paths are there, then use `sys.insert(0, '/path/to/file')` to add the path.
