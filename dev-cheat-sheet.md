@@ -24,7 +24,7 @@
 
 # PyTest
 * ```assert(add(1, 2)) == 3```
-  * This is what you use to literally check everything. Once something does not match, the testing will end.
+  * This is what you use to literally check everything. Once something does not match, the testing will end. Put assert inside the main() function or a function that the main() calls.
 
 # iPython
 * ```%paste``` pastes code for you
