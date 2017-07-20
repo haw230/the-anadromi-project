@@ -22,6 +22,10 @@
 * ```sys.path``` PYTHONPATH that finds modules ( ```import sys``` first)
 * ```sys.path.insert(0, "/path/to/module")``` inserts to PYTHONPATH
 
+# PyTest
+* ```assert(add(1, 2)) == 3```
+  * This is what you use to literally check everything. Once something does not match, the testing will end.
+
 # iPython
 * ```%paste``` pastes code for you
 * ```%autoindent``` can paste code without random indents
