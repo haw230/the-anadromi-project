@@ -4,6 +4,7 @@
 * ```git commit -m "All tests passing"``` commits added object that can be pushed
 * ```git push``` pushes all modified objects
 * ```git pull``` merges from current repo and master
+* ```git checkout -b new-branche-name``` switches branches
 
 # Bash Commands
 * ```pwd``` finds current path
