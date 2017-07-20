@@ -18,6 +18,7 @@ The Anadromi Project (TAP) is an innovative approach to computer science educati
     * [Binary Search](#binary-search "Efficent way to search")
     * [Merge Sort](#merge-sort "Efficent way to sort")
     * [Quicksort](#quicksort "A very quick way to sort")
+    * [Tower of Hanoi](#tower-of-hanoi "Solve a logic puzzle!")
 4. [Stage 3: At the Top](#stage-3-at-the-top "Final stage!")
     * [Greedy](#greedy "Greedy but short-sighted")
     * [Binary Search Tree](#binary-search-tree "Optimal but tiring")
@@ -57,6 +58,9 @@ Merge sort builds on the recursive foundation binary search introduced previousl
 
 ### Quicksort
 The most modern of sorting algorithms, quicksort depicts the mastery of recursion and shows readiness to move onto dynamic programming.
+
+### Tower of Hanoi
+Hone your skills with a common mathematical puzzle that can be solved through recursion.
 
 ## Stage 3: At the Top
 Using everything learned from the previous lessons, the student will create different algorithmic solutions to the knapsack problem. This is the capstone project of the program.
