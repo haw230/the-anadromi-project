@@ -15,3 +15,4 @@
 # Python
 * ```help("modules")``` lists out all modules
 * ```sys.path``` PYTHONPATH that finds modules ( ```import sys``` first)
+* ```sys.path.insert(0, "/path/to/module")``` inserts to PYTHONPATH
