@@ -8,7 +8,7 @@
 The Anadromi Project (TAP) is an innovative approach to computer science education. Armed with Python, this revolutionary open source program focuses on teaching the bright leaders of tomorrow necessary tools for **recursion** and **algorithmic thinking**. These skills are applicable and essential to both the computer science field as well as other disciplines.
 
 ## Table of Contents
-1. [Prerequisites](#prerequisites)
+1. [Prerequisites](#prerequisites "What you might want to know before starting")
 2. [Stage 1: Hill Climbing](#stage-1-hill-climbing)   
     * [Linear Search](#linear-search)
     * [Selection Sort](#selection-sort)
