@@ -13,8 +13,8 @@
 * ```pip install -U module-name``` installs or upgrades module
 
 # c9 Keybindings
-```tab``` indents highlighted text
-```tab``` + ```shift``` outdents highlighted text
+* ```tab``` indents highlighted text
+* ```tab``` + ```shift``` outdents highlighted text
 
 # Python
 * ```help("modules")``` lists out all modules
