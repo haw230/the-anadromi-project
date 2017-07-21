@@ -6,8 +6,8 @@
 3. [Pseudocode](#pseudocode "Let's kinda code this!")
 4. [Analysis](#analysis "A bit info")
 5. [Extra Resources](#extra-resources "Wanna learn more!")
-6. [Key Words](#key-words "Important terms")
-7. [Task](#task "Coding challenge")
+6. [Coding Task](#coding-task "Coding challenge")
+7. [Key Words](#key-words "Important terms")
 
 ## Introduction
 Suppose I had a collection of numbers, which we'll call a [*list*](#list "collection of numbers"), how would I find a specific [*element*](element "just an item") in that list? That's what linear search does for us. Finding and matching values is extremely important in daily life, whether you're doing a Google search or ```ctrl + f``` in a doc, or looking up values for your company, searching is present. Though, for the sake of abstraction, we will be searching in lists of numbers for numbers. Replacing the numbers with strings (text) will barely make a difference to linear search. Let's go implement our first algorithm that can search through a list!
@@ -62,6 +62,9 @@ If you've looked into the next stage, you'll find that we'll be covering binary 
     * another explanation of linear search
 2. [Linear Search Animation by Y. Daniel Liang](http://cs.armstrong.edu/liang/animation/web/LinearSearch.html)
     * visualizing algorithm process
+    
+## Coding Task
+Go [here](https://github.com/haw230/linear-search/ "Linear Search") to complete the first project!
 
 ## Key words
 #### Element
@@ -90,6 +93,3 @@ def giveThree():
 three = giveThree()
 ```
 Now the variable ```three``` has been assigned the value of 3. As you can see, this is pretty useless because we could've given ```three``` the value directly instead of making a function return it, but when there is an actually something going on inside the function, returning values becomes much more... *valuable*.
-
-## Task
-Go [here](https://github.com/haw230/linear-search/ "Linear Search") to complete the first project!
