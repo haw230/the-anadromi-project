@@ -10,15 +10,33 @@
 7. [Key Words](#key-words "Important terms")
 
 ## Introduction
-Lets get a list again, like last time ```[1, 3, 5, 4, 2]```, except out of order. 
+Lets get a [*list*](#list) again, like last time ```[1, 3, 5, 4, 2]```, except it's out of order. Our goal? Sort it. This function will take in that list or a similar one and will output a sorted list in ascending order ```[1, 2, 3, 4, 5]```. We're only going to deal with numbers and we'll be using selection sort to put it in order. Sorting is vital for dealing with data and while programming, there's always lost of data. But [here](https://www.crondose.com/2016/07/sorting-algorithms-important/) is a good article that deals with question "Why are Sorting Algorithms Important?"
 
 ## Theory
+Selection sort is pretty simple to understand. [*Iterate*](#iterate) through the list and find the lowest number. Move it to the front. Iterate through it again and find the next lowest. Rinse and repeat until the list is sorted.
 
 ## Pseudocode
-
+The theory was fairly simple, but the coding will be slightly tougher.
+```
+selection_sort(ls)
+    for every item in ls
+        check if it's the smallest
+```
+Perfect. Done right? Except checking if it's the smallest is harder than it sounds. We're gonna have to iterate through the entire the list a second time, just to find out which one is the smallest. 
+```
+selection_sort(ls)
+    for every item in ls
+        lowest_num variable set to zero
+        for every item in ls again
+            compare lowest_num with the item, if the item is smaller, that's actually the lowest value
+                set lowest_num to that item
+        by now, the lowest has been found, so move that to the front
+```
+Man, that's a lot of steps **and** it's still not done. ```ls.insert(0, item_name)```
 ## Analysis
 
 ## Extra Resources
+[Why are Sorting Algorithms Important?](https://www.crondose.com/2016/07/sorting-algorithms-important/)
 
 ## Coding Task
 
