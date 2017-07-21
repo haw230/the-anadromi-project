@@ -3,7 +3,7 @@ Welcome to the first stage of The Anadromi Project. Here you will get your feet 
 
 Each lesson will have 7 sections, each playing a vital role to your learning. These consist of:
 ### 1. Introduction
-The introduction will explain the problem and what uses the algorithm has in daily life.
+The introduction will explain the problem and what uses the algorithm has in daily life. Some are less applicable than others but keep in mind that we're to practice programming skills too!
 
 ### 2. Theory
 The theory section explains in detail how the algorithm will operate.
