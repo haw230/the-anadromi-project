@@ -59,7 +59,7 @@ If you've looked into the next stage, you'll find that we'll be covering binary 
 
 ## Extra Resources
 [Harvard's CS50 Lecture covering Linear Search](https://youtu.be/jUyQqLvg8Qw?t=8m45s)
-* another explanation of linear search
+* another explanation of linear search <br>
 [Linear Search Animation by Y. Daniel Liang](http://cs.armstrong.edu/liang/animation/web/LinearSearch.html)
 * visualizing algorithm process
 
