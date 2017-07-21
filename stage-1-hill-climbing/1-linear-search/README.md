@@ -1,5 +1,8 @@
 # Linear Search
 
+## Table of Contents
+1. [Introduction](introduction "Why the heck is this important?")
+
 ## Introduction
 Suppose I had a collection of numbers, which we'll call a [*list*](list "collection of numbers"), how would I find a specific [*element*](element "just an item") in that list? That's what linear search does for us. Finding and matching values is extremely important in daily life, whether you're doing a Google search or ```ctrl + f``` in a doc, or looking up values for your company, searching is present. Let's go implement our first algorithm that can search through a list!
 
@@ -48,8 +51,10 @@ So linear search is definitely no the most efficent way to search for an element
 
 If you've looked into the next stage, you'll find that we'll be covering binary search, which is a much more efficent, faster, and smarter searching algorithm. However, the downside to binay search is that the list it searches must be sorted (```[1,2,3]``` is sorted but ```[2,1,3]``` is not). And wow, our next lesson is selection sort, another simple algorithm.
 
-## Resources
+## Extra Resources
 [Harvard's CS50 Lecture covering Linear Search](https://youtu.be/jUyQqLvg8Qw?t=8m45s)
+[Linear Search Animation by Y. Daniel Liang](http://cs.armstrong.edu/liang/animation/web/LinearSearch.html)
+
 
 ## Key words
 #### Element
