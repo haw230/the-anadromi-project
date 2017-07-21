@@ -1,3 +1,7 @@
+ #block-72b1d92a580fe89c5aa3 a {
+   text-decoration: none;
+ }
+
 # Linear Search
 
 ## Introduction
