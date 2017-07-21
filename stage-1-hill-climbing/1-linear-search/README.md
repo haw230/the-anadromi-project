@@ -5,7 +5,7 @@
 2. [Theory](#theory "Alright, how the heck do I do this?")
 3. [Pseudocode](#pseudocode "Let's kinda code this!")
 4. [Analysis](#analysis "A bit info")
-5. [Resources](#extra-resources "Wanna learn more!")
+5. [Extra Resources](#extra-resources "Wanna learn more!")
 6. [Key Words](#key-words "Important terms")
 7. [Task](#task "Coding challenge")
 
