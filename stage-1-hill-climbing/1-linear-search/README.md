@@ -58,7 +58,7 @@ So linear search is definitely no the most efficent way to search for an element
 If you've looked into the next stage, you'll find that we'll be covering binary search, which is a much more efficent, faster, and smarter searching algorithm. However, the downside to binay search is that the list it searches must be sorted (```[1,2,3]``` is sorted but ```[2,1,3]``` is not). And wow, our next lesson is selection sort, another simple algorithm.
 
 ## Extra Resources
-[Harvard's CS50 Lecture covering Linear Search](https://youtu.be/jUyQqLvg8Qw?t=8m45s)
+[Harvard's CS50 Lecture covering Linear Search](https://youtu.be/jUyQqLvg8Qw?t=8m45s) <br>
 [Linear Search Animation by Y. Daniel Liang](http://cs.armstrong.edu/liang/animation/web/LinearSearch.html)
 
 
