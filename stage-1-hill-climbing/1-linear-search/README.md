@@ -1,7 +1,7 @@
 # Linear Search
 
 ## Table of Contents
-1. [Introduction](introduction "Why the heck is this important?")
+1. [Introduction](#introduction "Why the heck is this important?")
 
 ## Introduction
 Suppose I had a collection of numbers, which we'll call a [*list*](list "collection of numbers"), how would I find a specific [*element*](element "just an item") in that list? That's what linear search does for us. Finding and matching values is extremely important in daily life, whether you're doing a Google search or ```ctrl + f``` in a doc, or looking up values for your company, searching is present. Let's go implement our first algorithm that can search through a list!
