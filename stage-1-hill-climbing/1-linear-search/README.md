@@ -37,7 +37,7 @@ Here, notice that the ```give back -1``` is not included in the loop (notice the
 
 ## Resources
 <a href="https://youtu.be/jUyQqLvg8Qw?t=8m45s" target="_tab">Harvard's CS50 Lecture covering Linear Search</a>
-<a onclick='window.open("https://youtu.be/jUyQqLvg8Qw?t=8m45s");return false;' href="javascript:void(0);">Harvard's CS50 Lecture covering Linear Search</a>
+[Harvard's CS50 Lecture covering Linear Search](https://youtu.be/jUyQqLvg8Qw?t=8m45s){:target="_blank"}
 
 ## Key words
 #### Element
