@@ -1,8 +1,18 @@
 # Linear Search
 
 ## Introduction
+Suppose I had a collection of numbers, which we'll call a [*list*](list "collection of numbers"), how would I find a specific [*element*](element "just an item") in that list? That's what linear search does for us. Finding and matching values is extremely important in daily life, whether you're doing a Google search or ```ctrl + f``` in a doc, or looking up values for your company, searching is present. Let's go implement our first algorithm that can search through a list!
 
-Suppose I had a collection of numbers, which we'll call a [*list*](list "collection of numbers"), how would I find a specific [*element*](element "just an item") in that list? Let's take the list ```[1, 2, 3, 4 ,5]``` and let's say I wanted to find the [*index*](index "position in list") of the number 3. The way the linear search algorithm works is that it will compare the number we are looking for with every element in the list, starting from the beginning. First, it would compare 3 with 1. They're not equal, so we move on to 2. 3 doesn't equal 2, so we move on again. Now we have reached 3 and 3—they match and we [*return*](return "give back") the index. If by the end, there has been no matches, just return -1. The problem is solved!
+## Theory
+Let's take the list ```[1, 2, 3, 4 ,5]``` and let's say I wanted to find the [*index*](index "position in list") of the number 3. The way the linear search algorithm works is that it will compare the number we are looking for with every element in the list, starting from the beginning. 
+
+First, it would compare 3 with 1. 
+
+They're not equal, so we move on to 2. 3 doesn't equal 2, so we move on again. 
+
+Now we have reached 3 and 3—they match and we [*return*](return "give back") the index. 
+
+If by the end, there has been no matches, just return -1. That's all there is to it!
 
 ## Pseudocode
 Of course, we have to code it. Here, I'll present the pseudocode and theory necessary to successfully implement a linear search. 
@@ -34,10 +44,12 @@ linear_search(ls, num)
 Here, notice that the ```give back -1``` is not included in the loop (notice the indentation levels). If it was in the loop, the loop would end after one iteration and just ```return -1```. By having it outside of loop, we are certain it will run **after** the entire list has been iterated over already.
 
 ## Analysis
+So linear search is definitely no the most efficent way to search for an element. Sure, maybe if you're lucky, the very first element you check will turn out to be the one you're looking for and it's done. Boom. One step. But the element you're searching for is at the end, then you'll be checking **every** element along the way. Sure that may not be bad with the lists we're dealing with here. But as these lists get larger and larger, checking every element will slow the program down by a large margin. 
+
+If you've looked into the next stage, you'll find that we'll be covering binary search, which is a much more efficent, faster, and smarter searching algorithm. However, the downside to binay search is that the list it searches must be sorted (```[1,2,3]``` is sorted but ```[2,1,3]``` is not). And wow, our next lesson is selection sort, another simple algorithm.
 
 ## Resources
-<a href="https://youtu.be/jUyQqLvg8Qw?t=8m45s" target="_tab">Harvard's CS50 Lecture covering Linear Search</a>
-[Harvard's CS50 Lecture covering Linear Search](https://youtu.be/jUyQqLvg8Qw?t=8m45s){:target="_blank"}
+[Harvard's CS50 Lecture covering Linear Search](https://youtu.be/jUyQqLvg8Qw?t=8m45s)
 
 ## Key words
 #### Element
@@ -67,25 +79,5 @@ three = giveThree()
 ```
 Now the variable ```three``` has been assigned the value of 3. As you can see, this is pretty useless because we could've given ```three``` the value directly instead of making a function return it, but when there is an actually something going on inside the function, returning values becomes much more... *valuable*.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Task
 Go [here](https://github.com/haw230/linear-search/ "Linear Search") to complete the first project!
