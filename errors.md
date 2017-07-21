@@ -1,3 +1,6 @@
+#### Make markdown files open link in new tab
+```a target="_blank" href="http://some_other_site.com">Some Other site</a>``` does not work.
+
 #### Making Github folders [Solved]
 Just type '/' at the end of name when making a file.
 
