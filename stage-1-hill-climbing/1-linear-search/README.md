@@ -2,23 +2,29 @@
 
 ## Table of Contents
 1. [Introduction](#introduction "Why the heck is this important?")
+2. [Theory](#theory "Alright, how the heck do I do this?")
+3. [Pseudocode](#pseudocode "Let's kinda code this!")
+4. [Analysis](#analysis "A bit info")
+5. [Resources](#resources "Wanna learn more!")
+6. [Key Words](#key-words "Important terms")
+7. [Task](#task "Coding challenge")
 
 ## Introduction
-Suppose I had a collection of numbers, which we'll call a [*list*](list "collection of numbers"), how would I find a specific [*element*](element "just an item") in that list? That's what linear search does for us. Finding and matching values is extremely important in daily life, whether you're doing a Google search or ```ctrl + f``` in a doc, or looking up values for your company, searching is present. Let's go implement our first algorithm that can search through a list!
+Suppose I had a collection of numbers, which we'll call a [*list*](#list "collection of numbers"), how would I find a specific [*element*](element "just an item") in that list? That's what linear search does for us. Finding and matching values is extremely important in daily life, whether you're doing a Google search or ```ctrl + f``` in a doc, or looking up values for your company, searching is present. Though, for the sake of abstraction, we will be searching in lists of numbers for numbers. Replacing the numbers with strings (text) will barely make a difference to linear search. Let's go implement our first algorithm that can search through a list!
 
 ## Theory
-Let's take the list ```[1, 2, 3, 4 ,5]``` and let's say I wanted to find the [*index*](index "position in list") of the number 3. The way the linear search algorithm works is that it will compare the number we are looking for with every element in the list, starting from the beginning. 
+Let's take the list ```[1, 2, 3, 4 ,5]``` and let's say I wanted to find the [*index*](#index "position in list") of the number 3. The way the linear search algorithm works is that it will compare the number we are looking for with every element in the list, starting from the beginning. 
 
 First, it would compare 3 with 1. 
 
 They're not equal, so we move on to 2. 3 doesn't equal 2, so we move on again. 
 
-Now we have reached 3 and 3—they match and we [*return*](return "give back") the index. 
+Now we have reached 3 and 3—they match and we [*return*](#return "give back") the index. 
 
 If by the end, there has been no matches, just return -1. That's all there is to it!
 
 ## Pseudocode
-Of course, we have to code it. Here, I'll present the pseudocode and theory necessary to successfully implement a linear search. 
+Of course, we have to code it. Here, I'll present the pseudocode, a made up language for the purpose of applying the theory to  implement a linear search. 
 ```
 linear_search(ls, num)
     index variable set to 0
@@ -26,7 +32,7 @@ linear_search(ls, num)
 ```
 We need an ```index``` variable in order to keep track of where we are. This variable should [*increment*](#increment "Add consistenly by the number") by 1 as we pass through the list. This index is what the function will return once we find the number. 
 
-Next is the for loop. We need this is [*iterate*](iterate "go over each") through the list that is given. It allows the function to check every element. Each will be compared to num, which is the number we are looking for
+Next is the for loop. We need this is [*iterate*](#iterate "go over each") through the list that is given. It allows the function to check every element. Each will be compared to num, which is the number we are looking for
 ```
 linear_search(ls, num)
     index variable set to 0
