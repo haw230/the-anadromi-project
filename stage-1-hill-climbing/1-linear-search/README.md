@@ -1,13 +1,13 @@
 # Linear Search
 
 ## Table of Contents
-* [Introduction](#introduction "Why the heck is this important?")
-* [Theory](#theory "Alright, how the heck do I do this?")
-* [Pseudocode](#pseudocode "Let's kinda code this!")
-* [Analysis](#analysis "A bit info")
-* [Extra Resources](#extra-resources "Wanna learn more!")
-* [Key Words](#key-words "Important terms")
-* [Task](#task "Coding challenge")
+1.[Introduction](#introduction "Why the heck is this important?")
+2. [Theory](#theory "Alright, how the heck do I do this?")
+3. [Pseudocode](#pseudocode "Let's kinda code this!")
+4. [Analysis](#analysis "A bit info")
+5. [Extra Resources](#extra-resources "Wanna learn more!")
+6. [Key Words](#key-words "Important terms")
+7. [Task](#task "Coding challenge")
 
 ## Introduction
 Suppose I had a collection of numbers, which we'll call a [*list*](#list "collection of numbers"), how would I find a specific [*element*](element "just an item") in that list? That's what linear search does for us. Finding and matching values is extremely important in daily life, whether you're doing a Google search or ```ctrl + f``` in a doc, or looking up values for your company, searching is present. Though, for the sake of abstraction, we will be searching in lists of numbers for numbers. Replacing the numbers with strings (text) will barely make a difference to linear search. Let's go implement our first algorithm that can search through a list!
