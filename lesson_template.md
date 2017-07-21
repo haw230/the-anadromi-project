@@ -10,7 +10,6 @@
 7. [Key Words](#key-words "Important terms")
 
 ## Introduction
-Lets get a list again, like last time ```[1, 3, 5, 4, 2]```, except out of order. 
 
 ## Theory
 
