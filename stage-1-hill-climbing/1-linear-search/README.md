@@ -29,10 +29,11 @@ Of course, we have to code it. Here, I'll present the pseudocode, a made up lang
 linear_search(ls, num)
     index variable set to 0
     for every item in ls
+            check it
 ```
 We need an ```index``` variable in order to keep track of where we are. This variable should [*increment*](#increment "Add consistenly by the number") by 1 as we pass through the list. This index is what the function will return once we find the number. 
 
-Next is the for loop. We need this is [*iterate*](#iterate "go over each") through the list that is given. It allows the function to check every element. Each will be compared to num, which is the number we are looking for
+Next is the for loop. We need this is [*iterate*](#iterate "go over each") through the list that is given. It allows the function to check every element. Each will be compared to num, which is the number we are looking for. So this is how we "check it".
 ```
 linear_search(ls, num)
     index variable set to 0
@@ -48,9 +49,12 @@ linear_search(ls, num)
     for every item in ls
         if this item equals num
             give back the index and stop the loop
+        index add one
     give back -1
 ```
 Here, notice that the ```give back -1``` is not included in the loop (notice the indentation levels). If it was in the loop, the loop would end after one iteration and just ```return -1```. By having it outside of loop, we are certain it will run **after** the entire list has been iterated over already.
+
+There is another, more sophisticated way to implement this that uses ```for i in range(len(ls))``` (Python spoilers) where you won't need a variable to keep track of the index. That's for you to figure out ;).
 
 ## Analysis
 So linear search is definitely no the most efficent way to search for an element. Sure, maybe if you're lucky, the very first element you check will turn out to be the one you're looking for and it's done. Boom. One step. But the element you're searching for is at the end, then you'll be checking **every** element along the way. Sure that may not be bad with the lists we're dealing with here. But as these lists get larger and larger, checking every element will slow the program down by a large margin. 
