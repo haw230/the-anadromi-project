@@ -1,4 +1,4 @@
-# Title
+# Selection Sort
 
 ## Table of Contents
 1. [Introduction](#introduction "Why the heck is this important?")
