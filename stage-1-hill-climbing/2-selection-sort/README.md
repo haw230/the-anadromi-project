@@ -22,7 +22,8 @@ selection_sort(ls)
     for every item in ls
         check if it's the smallest
 ```
-Perfect. Done right? Except checking if it's the smallest is harder than it sounds. We're gonna have to iterate through the entire the list a second time, just to find out which one is the smallest. 
+Perfect. Done right? Except checking if it's the smallest is harder than it sounds. We're gonna have to iterate through the entire the list a second time, just to find out which one is the smallest. But let's change the first for loop to ```for i in range(len(ls))```. Basically, ```range()``` makes a list counting by ones from 0 to the length of ```ls``` minus one. This way, ```i``` will store the [*index*](#index) of where to insert the lowest value.
+
 ```
 selection_sort(ls)
     for every item in ls
@@ -53,7 +54,7 @@ In some other languages, it is referred to as an *array*.
 Adding a fixed number consistently. Opposite is decrement. Unlike C-based languages, Python does not suppose the ```++``` short hand to have variables increment by 1, so ```+= 1``` is used instead.
 
 #### Index
-The index is the *numerical position* of an element inside a list. Programmers count starting from zero (because it's slightly more efficent), so each number is one less than what we would normally call it in real life. In ```[1, 2, 3]```, 1 may seem like the first element, but it is actually the zeroth. 2 would be the first and 3 is the second. So to match the index with each element, it would look like 0:1, 1:2, and 2:3.
+The index is the *numerical position* of an element inside a list. This is important for tracking the location of a specific element. The numbering system is slightly convoluted since, programmers count starting from zero (because it's slightly more efficent), so each number is one less than what we would normally call it in real life. In ```[1, 2, 3]```, 1 may seem like the first element, but it is actually the zeroth. 2 would be the first and 3 is the second. So to match the index with each element, it would look like 0:1, 1:2, and 2:3.
 
 #### Iterate
 Repeating a process for each element until a condition has been reached in which case it is stopped. For linear search, the process will be comparing the element with the number we are trying to locate.
