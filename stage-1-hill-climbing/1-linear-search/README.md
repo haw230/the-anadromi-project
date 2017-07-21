@@ -5,7 +5,7 @@
 2. [Theory](#theory "Alright, how the heck do I do this?")
 3. [Pseudocode](#pseudocode "Let's kinda code this!")
 4. [Analysis](#analysis "A bit info")
-5. [Resources](#resources "Wanna learn more!")
+5. [Resources](#extra-resources "Wanna learn more!")
 6. [Key Words](#key-words "Important terms")
 7. [Task](#task "Coding challenge")
 
@@ -59,9 +59,9 @@ If you've looked into the next stage, you'll find that we'll be covering binary 
 
 ## Extra Resources
 1. [Harvard's CS50 Lecture covering Linear Search](https://youtu.be/jUyQqLvg8Qw?t=8m45s)
-  * another explanation of linear search
+    * another explanation of linear search
 2. [Linear Search Animation by Y. Daniel Liang](http://cs.armstrong.edu/liang/animation/web/LinearSearch.html)
-  * visualizing algorithm process
+    * visualizing algorithm process
 
 ## Key words
 #### Element
