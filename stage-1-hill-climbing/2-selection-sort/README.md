@@ -28,13 +28,13 @@ Perfect. Done right? One problem: checking for the smallest is harder than it se
 ```
 selection_sort(ls)
     for i in range(len(ls))
-        lowest_num variable set to zero
-        for every item in ls again
-            compare lowest_num with the item, if the item is smaller, that's actually the lowest value
-                set lowest_num to that item
-        by now, the lowest has been found, so move that to the front
+        lowest_index variable set to i
+        for j in range(len(ls))
+            compare ls at j with the ls at the lowest_index, if the ls at j is smaller
+                set lowest_index to j
+        by now, lowest_index has the lowest index, so move that to i
 ```
-Man, that's a lot of steps **and** it's still not done. ```ls.insert(i, item)```
+Man, that's a lot of steps. ```ls.insert(i, item)```
 ## Analysis
 
 ## Extra Resources
