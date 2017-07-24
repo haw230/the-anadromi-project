@@ -21,19 +21,20 @@ The theory was fairly simple, but the coding will be slightly tougher.
 selection_sort(ls)
     for every item in ls
         check if it's the smallest
+        move that to the front
 ```
-Perfect. Done right? Except checking if it's the smallest is harder than it sounds. We're gonna have to iterate through the entire the list a second time, just to find out which one is the smallest. But let's change the first for loop to ```for i in range(len(ls))```. Basically, ```range()``` makes a list counting by ones from 0 to the length of ```ls``` minus one. This way, ```i``` will store the [*index*](#index) of where to insert the lowest value.
+Perfect. Done right? One problem: checking for the smallest is harder than it seems. We're gonna have to iterate through the entire the list just to find out which element is the smallest. But let's change the first for loop to ```for i in range(len(ls))```. ```range()``` makes a list counting by ones from 0 to the length of ```ls```. If ```ls``` has 3 items, ```range()``` will make ```[0, 1, 2]```. So with each iteration, ```i``` will store the [*index*](#index) of where to insert the lowest value. ```i``` would refer to ```0``` in the first iteration, which is where the lowest element will go and then ```i``` would refer to ```1``` would refer to ```1``` in the second iteration.
 
 ```
 selection_sort(ls)
-    for every item in ls
+    for i in range(len(ls))
         lowest_num variable set to zero
         for every item in ls again
             compare lowest_num with the item, if the item is smaller, that's actually the lowest value
                 set lowest_num to that item
         by now, the lowest has been found, so move that to the front
 ```
-Man, that's a lot of steps **and** it's still not done. ```ls.insert(0, item_name)```
+Man, that's a lot of steps **and** it's still not done. ```ls.insert(i, item)```
 ## Analysis
 
 ## Extra Resources
