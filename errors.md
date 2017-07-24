@@ -4,6 +4,9 @@
 #### PyTest collecting 0 items and error 5 [Solved]
 The function that has ```assert()``` must be named ```test_something```
 
+#### PyTest acting up again [Solved]
+Gotta install this ```six``` module. Don't know how/why it got uninstalled but threw that into ```dev-requirements.txt``` just in case.
+
 #### Making Github folders [Solved]
 Just type '/' at the end of name when making a file.
 
