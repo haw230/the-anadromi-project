@@ -10,6 +10,7 @@
 * ```pwd``` finds current path
 * ```deactivate``` deactivates virtual machine
 * ```cd /home/ubuntu/workspace``` in case you ever cd out of workspace
+* ```cd ..``` cd to parent
 * ```pip install -r dev-requirements.txt``` installs necessary modules in txt
 * ```pip install -U module-name``` installs or upgrades module
 * ```amixer -D pulse sset Master 5%-``` decreases volume by 5%, replace '-' with '+' to increase it
