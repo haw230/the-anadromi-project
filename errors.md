@@ -1,7 +1,7 @@
 #### Make markdown files open link in new tab
 ```a target="_blank" href="http://some_other_site.com">Some Other site</a>``` does not work.
 
-#### PyTest collecting 0 items and error 5
+#### PyTest collecting 0 items and error 5 [Solved]
 The function that has ```assert()``` must be named ```test_something```
 
 #### Making Github folders [Solved]
