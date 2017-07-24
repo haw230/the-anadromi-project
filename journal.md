@@ -7,4 +7,4 @@ Weird error bugged me all morning with pytest. Apparently test function names mu
 def test_simple():
     assert(1) = 1
 ```
-Otherwise pytest won't work.
+Otherwise pytest won't work. Understood makefiles better. You can call commands with specific flags.
