@@ -13,6 +13,7 @@
 * ```pip install -r dev-requirements.txt``` installs necessary modules in txt
 * ```pip install -U module-name``` installs or upgrades module
 * ```amixer -D pulse sset Master 5%-``` decreases volume by 5%, replace '-' with '+' to increase it
+* ```pytest --help``` gives all pytest flags
 
 # C9 Keybindings
 * ```tab``` indents highlighted text
