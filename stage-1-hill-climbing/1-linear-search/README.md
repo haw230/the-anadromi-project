@@ -10,7 +10,7 @@
 7. [Key Words](#key-words "Important terms")
 
 ## Introduction
-Suppose I had a collection of numbers, which we'll call a [*list*](#list "collection of numbers"), how would I find a specific [*element*](element "just an item") in that list? That's what linear search does for us. Finding and matching values is extremely important in daily life, whether you're doing a Google search or ```ctrl + f``` in a doc, or looking up values for your company, searching is present. Though, for the sake of abstraction, we will be searching in lists of numbers for numbers. Replacing the numbers with strings (text) will barely make a difference to linear search. Let's go implement our first algorithm that can search through a list!
+Suppose I had a collection of numbers, which we'll call a [*list*](#list "collection of numbers") and I wanted to find a specific [*element*](element "just an item") in that list. Well, linear search can help us out. Finding and matching values is extremely important in daily life, whether you're doing a Google search or ```ctrl + f``` in a doc or looking up values for your company, searching is necessary. Even though most of these examples involve searching strings (text), for the sake of abstraction, we will be searching in lists of numbers for numbers. Replacing the numbers with strings will make no difference to linear search. Let's go implement our first algorithm that can search through a list!
 
 ## Theory
 Let's take the list ```[1, 2, 3, 4 ,5]``` and let's say I wanted to find the [*index*](#index "position in list") of the number 3. The way the linear search algorithm works is that it will compare the number we are looking for with every element in the list, starting from the beginning. 
