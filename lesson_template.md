@@ -25,11 +25,6 @@
 #### Element
 An item inside a list. In the list ```[1, 2, 3]``` 1, 2, and 3 are all elements.
 
-#### List
-A list is just a collection of numbers. This collection can contain however many numbers and each number can be of any value (we shouldn't have to worry about going over the maximum size of a list or the maximum value of a number in the scope of this lesson). For example ```[1, 2, 3, 4 ,5]``` is a list and ```[10, 4, 5, 9.5, 4, 5.4]``` is another. Heck, it can even include strings (text). ```[1, 2, 'three']``` is a totally valid list. 
-
-In some other languages, it is referred to as an *array*.
-
 #### Increment
 Adding a fixed number consistently. Opposite is decrement. Unlike C-based languages, Python does not suppose the ```++``` short hand to have variables increment by 1, so ```+= 1``` is used instead.
 
@@ -38,6 +33,11 @@ The index is the *numerical position* of an element inside a list. Programmers c
 
 #### Iterate
 Repeating a process for each element until a condition has been reached in which case it is stopped. For linear search, the process will be comparing the element with the number we are trying to locate.
+
+#### List
+A list is just a collection of numbers. This collection can contain however many numbers and each number can be of any value (we shouldn't have to worry about going over the maximum size of a list or the maximum value of a number in the scope of this lesson). For example ```[1, 2, 3, 4 ,5]``` is a list and ```[10, 4, 5, 9.5, 4, 5.4]``` is another. Heck, it can even include strings (text). ```[1, 2, 'three']``` is a totally valid list. 
+
+In some other languages, it is referred to as an *array*.
 
 #### Return
 This will give back a certain value and end the function process. For example:
