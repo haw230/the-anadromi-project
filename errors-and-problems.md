@@ -1,4 +1,4 @@
-#### Make markdown files open link in new tab
+#### Have markdown files open link in new tab
 ```a target="_blank" href="http://some_other_site.com">Some Other site</a>``` does not work. Whatever, this is a minor problem.
 
 #### Makefile can't find the file ```python: can't open file 'main.py': [Errno 2] No such file or directory``` [Solved]
