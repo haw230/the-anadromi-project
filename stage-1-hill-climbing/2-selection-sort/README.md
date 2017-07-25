@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [Introduction](#introduction "Why the heck is this important?")
 2. [Theory](#theory "Alright, how the heck do I do this?")
-3. [Pseudocode](#pseudocode "Let's kinda code this!")
+3. [PseudoCode](#pseudocode "Let's kinda code this!")
 4. [Analysis](#analysis "A bit info")
 5. [Extra Resources](#extra-resources "Wanna learn more!")
 6. [Coding Task](#coding-task "Coding challenge")
@@ -15,7 +15,7 @@ Lets get a [*list*](#list) again: ```[1, 3, 5, 4, 2]```. Our goal? Sort it. This
 ## Theory
 Selection sort is pretty simple to understand. [*Iterate*](#iterate) through the list and find the lowest number. Move it to the front. Iterate through it again and find the next lowest. Rinse and repeat until the list is sorted.
 
-## Pseudocode
+## PseudoCode
 The theory was fairly simple, but the coding will be slightly tougher.
 ```
 selection_sort(ls)
