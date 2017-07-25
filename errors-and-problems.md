@@ -1,6 +1,9 @@
 #### Have markdown files open link in new tab
 ```a target="_blank" href="http://some_other_site.com">Some Other site</a>``` does not work. Whatever, this is a minor problem.
 
+#### Python complex data structures [Solved]
+Unlike simple data strucutures such as strings or numbers, Python, similar to many languages, stores a reference for lists instead of its actual value. By calling two functions (user-written and solved) with the same list as a parameter, they ended up as the same value because they both reference the same list. The solution is to create a separate list using ```list(ls)```, creating a new list with a new reference.  
+
 #### Makefile can't find the file ```python: can't open file 'main.py': [Errno 2] No such file or directory``` [Solved]
 The Makefil couldn't find main.py even though I ```cd```'d to the right directory. Apparently in Makfiles, ```cd``` is only effective for that one line which means by the time ```python main.py``` ran, it was in the original directory again which did not have the file. Solution is to use ```cd selection_sort/ && python main.py```.
 
