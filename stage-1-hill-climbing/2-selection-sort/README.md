@@ -10,7 +10,7 @@
 7. [Key Words](#key-words "Important terms")
 
 ## Introduction
-Lets get a [*list*](#list) again: ```[1, 3, 5, 4, 2]```. Our goal? Sort it. This function will take in that list or a similar one and will output a sorted list in ascending order ```[1, 2, 3, 4, 5]```. We're only going to deal with numbers and we'll be using selection sort to put it in order. Sorting is vital for dealing with data and while programming, there's always lost of data. But [here](https://www.crondose.com/2016/07/sorting-algorithms-important/) is a good article that deals with question "Why are Sorting Algorithms Important?"
+Lets get a [*list*](#list) again: ```[1, 3, 5, 4, 2]```. Our goal? Sort it. This function will take in that list or a similar one and will output a sorted list in ascending order ```[1, 2, 3, 4, 5]```. We're only going to deal with numbers and we'll be using selection sort to put it in order. Sorting is vital for dealing with data and while programming, there's always lost of data. But [here](https://www.crondose.com/2016/07/sorting-algorithms-important/) is a good explanation of the importance of sorting algorithms. Even if they aren't that important, they're still great for coding practice.
 
 ## Theory
 Selection sort is pretty simple to understand. [*Iterate*](#iterate) through the list and find the lowest number. Move it to the front. Iterate through it again and find the next lowest. Rinse and repeat until the list is sorted.
@@ -34,9 +34,7 @@ selection_sort(ls)
                 set lowest_index to j
         by now, lowest_index has the lowest index, so move that to i
 ```
-Man, that's a lot of steps, but we're not quite done yet. We have to [insert](insert) it. With ```ls.insert(i, item)```, we can do just that. The ```insert(index, elem)``` function takes the an index and an element. It will put the entered element at the position of the entered index pushes everything back.
-
-Unfortunately, if we just blindly insert the item in there, we would have duplicates in the list. 
+Man, that's a lot of steps, but we're not quite done yet. We have to [*insert*](insert) it. With ```ls.insert(i, item)```, we can do just that. Unfortunately, if we just blindly insert the item in there, we would have duplicates in the list. 
 ## Analysis
 
 ## Extra Resources
@@ -56,6 +54,13 @@ Adding a fixed number consistently. Opposite is decrement. Unlike C-based langua
 The index is the *numerical position* of an element inside a list. This is important for tracking the location of a specific element. The numbering system is slightly convoluted since, programmers count starting from zero (because it's slightly more efficent), so each number is one less than what we would normally call it in real life. In ```[1, 2, 3]```, 1 may seem like the first element, but it is actually the zeroth. 2 would be the first and 3 is the second. So to match the index with each element, it would look like 0:1, 1:2, and 2:3.
 
 #### Insert
+This isn't so much a definition as it is an explanation of the ```insert()``` function. It takes the an index and an element, and it inserts the entered element at the position of the entered index pushes everything back.
+```python
+ls = [1, 2, 3]
+ls.insert(0, 0)
+print(ls) #will prints [0, 1, 2, 3]
+```
+Because you don't set ```ls``` to ```ls.insert(0, 0)```. That would change ```ls``` to ```None```.
 
 #### Iterate
 Repeating a process for each element until a condition has been reached in which case it is stopped. For linear search, the process will be comparing the element with the number we are trying to locate.
