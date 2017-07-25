@@ -41,6 +41,7 @@ Man, that's a lot of steps. ```ls.insert(i, item)```
 [Why are Sorting Algorithms Important?](https://www.crondose.com/2016/07/sorting-algorithms-important/)
 
 ## Coding Task
+Go [here](https://github.com/haw230/selection-sort) to complete your coding task!
 
 ## Key Words
 #### Element
