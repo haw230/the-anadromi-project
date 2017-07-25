@@ -1,6 +1,9 @@
 #### Make markdown files open link in new tab
 ```a target="_blank" href="http://some_other_site.com">Some Other site</a>``` does not work.
 
+#### Makefile can't find the file ```python: can't open file 'main.py': [Errno 2] No such file or directory```
+The Makefil couldn't find main.py even though I ```cd```'d to the right directory. Apparently in Makfiles, ```cd``` is only effective for that one line which means by the time ```python main.py``` ran, it was in the original directory again which did not have the file. Solution is to use ```cd selection_sort/ && python main.py```.
+
 #### Makefile error ```make: *** No rule to make target `test'.  Stop.```
 In the wrong directory. ```ls Makefile``` to make sure the file is there, if not, just ```cd``` to the right directory.
 
