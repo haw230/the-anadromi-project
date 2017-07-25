@@ -17,6 +17,11 @@
 * ```pytest --help``` gives all pytest flags
 * ```ls file``` tells if file is present
 
+# Makefile/Bash
+* ```@``` commands won't display (normally command would be printed to console and then the execution)
+* ```$(VAR)``` variables have ```$()```
+* ```&&``` simultaneously execute two commands (necessary to execute files in other directories as a ```cd``` would change the directory for that command *only*)
+
 # C9 Keybindings
 * ```tab``` indents highlighted text
 * ```tab``` + ```shift``` outdents highlighted text
