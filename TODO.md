@@ -9,13 +9,14 @@
 
 ### Testing
 - [x] Solve "module not found" error
-- [x] Get pytest working
-- [ ] Learn Makefile
-- [ ] Have test results printed to console
+- [x] Get pytest working (not even using this anymore lol)
+- [x] Learn Makefile
+- [x] Have test results printed to console
+- [x] Have tests continue after failure
 
 ### Lessons
 #### Stage 1: Hill Climbing
-- [ ] Selection search
+- [x] Linear search
 - [ ] Selection sort
 - [ ] Bubble sort
 - [ ] Time complexity
