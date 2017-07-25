@@ -8,7 +8,7 @@ The introduction will explain the problem and what uses the algorithm has in dai
 ### 2. Theory
 The theory section explains in detail how the algorithm will operate.
 
-### 3. Pseudocode
+### 3. PseudoCode
 The pseudocode builds on the theory section, puting the steps into a fake language.
 
 ### 4. Analysis
