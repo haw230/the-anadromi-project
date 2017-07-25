@@ -28,13 +28,26 @@ Perfect. Done right? One problem: checking for the smallest is harder than it se
 ```
 selection_sort(ls)
     for i in range(len(ls))
-        lowest_index variable set to i
+        index_of_lowest variable set to i
         for j in range(len(ls))
-            compare ls at j with the ls at the lowest_index, if the ls at j is smaller
-                set lowest_index to j
-        by now, lowest_index has the lowest index, so move that to i
+            compare ls at j with the ls at the index_of_lowest, if the ls at j is smaller
+                set index_of_lowest to j
+        by now, index_of_lowest has the lowest index, so move that to i
 ```
-Man, that's a lot of steps, but we're not quite done yet. We have to [*insert*](insert) it. With ```ls.insert(i, item)```, we can do just that. Unfortunately, if we just blindly insert the item in there, we would have duplicates in the list. 
+Man, that's a lot of steps, but we're not quite done yet. We have to [*insert*](insert) it. With ```ls.insert(i, item)```, we can do just that. It's not as easy as simply inserting it because if we just blindly insert the item in there, we would have duplicates in the list. We also need to delete the item that we inserted. Since we know that ```insert()``` pushes everything back by 1, the index will just be ```index_of_lowest + 1```, due to the insertion.
+
+Alright, here's our final PseudoCode.
+```
+selection_sort(ls)
+    for i in range(len(ls))
+        index_of_lowest variable set to i
+        for j in range(i, len(ls))
+            compare ls at j with the ls at the index_of_lowest, if the ls at j is smaller
+                set index_of_lowest to j
+        by now, index_of_lowest has the lowest index, so insert that to i
+        delete the item at index_of_lowest + 1
+    give back the list
+```
 ## Analysis
 
 ## Extra Resources
@@ -58,9 +71,9 @@ This isn't so much a definition as it is an explanation of the ```insert()``` fu
 ```python
 ls = [1, 2, 3]
 ls.insert(0, 0)
-print(ls) #will prints [0, 1, 2, 3]
+print(ls) #will print [0, 1, 2, 3]
 ```
-Because you don't set ```ls``` to ```ls.insert(0, 0)```. That would change ```ls``` to ```None```.
+Be careful you don't set ```ls``` to ```ls.insert(0, 0)```. That would change ```ls``` to ```None```.
 
 #### Iterate
 Repeating a process for each element until a condition has been reached in which case it is stopped. For linear search, the process will be comparing the element with the number we are trying to locate.
