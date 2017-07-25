@@ -15,6 +15,7 @@
 * ```pip install -U module-name``` installs or upgrades module
 * ```amixer -D pulse sset Master 5%-``` decreases volume by 5%, replace '-' with '+' to increase it
 * ```pytest --help``` gives all pytest flags
+* ```ls file``` tells if file is present
 
 # C9 Keybindings
 * ```tab``` indents highlighted text
