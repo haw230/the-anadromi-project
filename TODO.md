@@ -13,6 +13,7 @@
 - [x] Learn Makefile
 - [x] Have test results printed to console
 - [x] Have tests continue after failure
+- [x] Make a template for all future tests
 
 ### Lessons
 #### Stage 1: Hill Climbing
