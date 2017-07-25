@@ -35,14 +35,14 @@ Students should be somewhat comfortable the basic concepts of programming:
 
 ## Stage 1: Hill Climbing
 This stage will focus on simple but inefficent algorithms that neatly fuse the basics of programming, preparing the student for more advanced concepts.
-### Linear Search
+### [Linear Search](https://github.com/haw230/the-anadromi-project/tree/master/stage-1-hill-climbing/1-linear-search)
 Students will start off with a basic implementation of a linear search, a search algorithm that finds the index of a specific element in a list.
 
-### Selection Sort
+### [Selection Sort](https://github.com/haw230/the-anadromi-project/tree/master/stage-1-hill-climbing/2-selection-sort)
 This program will use the selection sort algorithm to sort an unordered list.
 
-### Bubble Sort
-Another algorithm exercise to practice coding skills.
+### [Bubble Sort](https://github.com/haw230/the-anadromi-project/tree/master/stage-1-hill-climbing/3-bubble-sort)
+Another sorting algorithm exercise to practice coding skills.
 
 ### Time Complexity
 This rather abstract concept is introduced rather early on in order to demonstrate the efficency of the previously learned algorithms. Time complexity provides a nice segway into recursion and answers the question to *why* we need these efficent yet terribly complex algorithms.
