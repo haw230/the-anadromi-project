@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [Introduction](#introduction "Why the heck is this important?")
 2. [Theory](#theory "Alright, how the heck do I do this?")
-3. [Pseudocode](#pseudocode "Let's kinda code this!")
+3. [PseudoCode](#pseudocode "Let's kinda code this!")
 4. [Analysis](#analysis "A bit info")
 5. [Extra Resources](#extra-resources "Wanna learn more!")
 6. [Coding Task](#coding-task "Coding challenge")
@@ -23,7 +23,7 @@ Now we have reached 3 and 3—they match and we [*return*](#return "give back") 
 
 If by the end, there has been no matches, just return -1. That's all there is to it!
 
-## Pseudocode
+## PseudoCode
 Of course, we have to code it. Here, I'll present the pseudocode, a made up language for the purpose of applying the theory to  implement a linear search. 
 ```
 linear_search(ls, num)
@@ -54,7 +54,7 @@ linear_search(ls, num)
 ```
 Here, notice that the ```give back -1``` is not included in the loop (notice the indentation levels). If it was in the loop, the loop would end after one iteration and just ```return -1```. By having it outside of loop, we are certain it will run **after** the entire list has been iterated over already.
 
-There is another, more sophisticated way to implement this that uses ```for i in range(len(ls))``` (Python spoilers) where you won't need a variable to keep track of the index. That's for you to figure out ;).
+Even better, we can use ```for i in range(len(ls))``` (yes, that's Python and no PseudoCode) where you won't need a variable to keep track of the index..
 
 ## Analysis
 So linear search is definitely no the most efficent way to search for an element. Sure, maybe if you're lucky, the very first element you check will turn out to be the one you're looking for and it's done. Boom. One step. But the element you're searching for is at the end, then you'll be checking **every** element along the way. Sure that may not be bad with the lists we're dealing with here. But as these lists get larger and larger, checking every element will slow the program down by a large margin. 
