@@ -13,11 +13,12 @@ The Anadromi Project (TAP) is an innovative approach to computer science educati
     * [Linear Search](#linear-search "A simple way to search")
     * [Selection Sort](#selection-sort "A simple way to sort")
     * [Bubble Sort](#bubble-sort "Another simple way to sort")
-    * [Time Complexity](#time-complexity "Measuring efficency")
+    * [Time Complexity Part 1](#time-complexity-part-1 "Measuring efficency")
 3. [Stage 2: Gaining Speed](#stage-2-gaining-speed "Stage stage!")
     * [Binary Search](#binary-search "Efficent way to search")
     * [Merge Sort](#merge-sort "Efficent way to sort")
     * [Quicksort](#quicksort "A very quick way to sort")
+    * [Time Complexity Part 2](#time-complexity-part-1 "More measuring efficency!")
     * [Tower of Hanoi](#tower-of-hanoi "Solve a logic puzzle!")
 4. [Stage 3: At the Top](#stage-3-at-the-top "Final stage!")
     * [Greedy](#greedy "Greedy but short-sighted")
@@ -44,7 +45,7 @@ This program will use the selection sort algorithm to sort an unordered list.
 ### [Bubble Sort](https://github.com/haw230/the-anadromi-project/tree/master/stage-1-hill-climbing/3-bubble-sort)
 Another sorting algorithm exercise to practice coding skills.
 
-### Time Complexity
+### [Time Complexity Part 1](https://github.com/haw230/the-anadromi-project/tree/master/stage-1-hill-climbing/4-time-complexity-part-1)
 This rather abstract concept is introduced rather early on in order to demonstrate the efficency of the previously learned algorithms. Time complexity provides a nice segway into recursion and answers the question to *why* we need these efficent yet terribly complex algorithms.
 
 ## Stage 2: Gaining Speed
@@ -58,6 +59,9 @@ Merge sort builds on the recursive foundation binary search introduced previousl
 
 ### Quicksort
 The most modern of sorting algorithms, quicksort depicts the mastery of recursion and shows readiness to move onto dynamic programming.
+
+### Time Complexity Part 2
+More on time complexity that will include these three new recursive algorithms.
 
 ### Tower of Hanoi
 Hone your skills with a common mathematical puzzle that can be solved through recursion.
