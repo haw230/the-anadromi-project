@@ -16,7 +16,7 @@ def bubblesort_anim(ls):
         plt.clf()
         imgidx += 1
 
-a = list(range(300))
+ls = list(range(300))
 shuffle(ls)
 bubblesort_anim(ls)
 
