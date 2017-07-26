@@ -1,4 +1,4 @@
-import pylab
+import pylab as plt
 from random import shuffle
 
 def bubblesort_anim(a):
@@ -12,9 +12,9 @@ def bubblesort_anim(a):
    if a[i] > a[i+1]:
     a[i+1], a[i] = a[i], a[i+1] # swap
     swapped = True
-  pylab.plot(x,a,'ro',markersize=6)
-  pylab.savefig("/cshome/ha10/Pictures/" + '%04d' % imgidx + ".png")
-  pylab.clf() # figure clear
+  plt.plot(x,a,'ro',markersize=6)
+  plt.savefig("/cshome/ha10/Pictures/" + '%04d' % imgidx + ".png")
+  plt.clf() # figure clear
   imgidx += 1
 
 # running the algorithm
