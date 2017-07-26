@@ -49,6 +49,7 @@ selection_sort(ls)
     give back the list
 ```
 ## Analysis
+Selection is a pretty inefficent sort. For larger lists, you're going to be checking over everything many, many times. For our small data sets, this won't really make a difference, but once we get over, let's say, 1000 items, the speed will be noticeably slower than the more efficent algorithm.
 
 ## Extra Resources
 [Why are Sorting Algorithms Important?](https://www.crondose.com/2016/07/sorting-algorithms-important/)
