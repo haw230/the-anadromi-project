@@ -53,6 +53,7 @@ Selection is a pretty inefficent sort. For larger lists, you're going to be chec
 
 ## Extra Resources
 [Why are Sorting Algorithms Important?](https://www.crondose.com/2016/07/sorting-algorithms-important/)
+[Harvard's CS 50 Lecture covering Selection sort](https://youtu.be/jUyQqLvg8Qw?t=27m50s)
 
 ## Coding Task
 Go [here](https://github.com/haw230/selection-sort) to complete your coding task!
