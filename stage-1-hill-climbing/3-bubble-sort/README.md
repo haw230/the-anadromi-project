@@ -15,9 +15,10 @@ Since you've got selection sort down, bubble sort will be pretty easy. They're p
 ## Theory
 Bubble sort was given its name because the larger would all bubble to the end. Here is an animation of bubble sort:
 ![Alt Text](https://github.com/haw230/the-anadromi-project/blob/pictures/bubble_sort_animation.gif)
-
+As you can see, the plots at the end start bunching up. The way bubble sort works is that it looks at the first and the second element. If the first is larger than the second, swap them. Otherwise don't do anything. Then, look at the second and third, swap if necessary and repeat that until the list is sorted.
 
 ## PseudoCode
+This, like selection sort, seems simple in theory, but the code implementation is a bit more difficult.
 
 ## Analysis
 
