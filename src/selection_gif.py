@@ -9,11 +9,11 @@ def selectionsort_anim(ls):
             if ls[j] < ls[lowest]:
                 lowest = j
         ls.insert(i, ls[lowest])
-        del a[lowest + 1]
-        plt.scatter(x, a, color='g', marker='.')
+        del ls[lowest + 1]
+        plt.scatter(x, ls, color='g', marker='.')
         plt.savefig('/cshome/ha10/Pictures/' + '%04d' % i + '.png')
         plt.clf()
         
-a = list(range(300))
+ls = list(range(300))
 shuffle(ls)
 selectionsort_anim(ls)
