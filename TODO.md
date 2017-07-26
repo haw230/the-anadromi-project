@@ -18,6 +18,6 @@
 ### Lessons
 #### Stage 1: Hill Climbing
 - [x] Linear search
-- [ ] Selection sort
+- [X] Selection sort
 - [ ] Bubble sort
 - [ ] Time complexity
