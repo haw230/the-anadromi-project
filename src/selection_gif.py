@@ -1,4 +1,4 @@
-import pylab
+import pylab as plt
 from random import shuffle
 
 def selectionsort_anim(a):
@@ -11,9 +11,9 @@ def selectionsort_anim(a):
   if iMin != j: # place the value into its proper location
    a[iMin], a[j] = a[j], a[iMin]
   # plotting
-  pylab.scatter(x,a,color='g',marker='.')
-  pylab.savefig("/cshome/ha10/Pictures/" + '%04d' % j + ".png")
-  pylab.clf() # figure clear
+  plt.scatter(x,a,color='g',marker='.')
+  plt.savefig("/cshome/ha10/Pictures/" + '%04d' % j + ".png")
+  plt.clf() # figure clear
 
 # running the algorithm
 a = list(range(300)) # initialization of the array
