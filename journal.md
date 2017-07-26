@@ -1,3 +1,5 @@
+# Journal
+
 ## Friday July 21
 Started working on actual lessons. Will figure out tests later. Finished 
 
@@ -11,3 +13,6 @@ Otherwise pytest won't work. Understood makefiles better today. --verbose and --
 
 ## Tuesday July 25
 Wrote my own test. Works great, tested multiple times. Going to implement it for each lesson. Template is complete so the rest should be smooth sailing. Selection sort almost finished. Gonna have to work on some at home or bring my laptop (not sure how to screenshot on these computers). Goal for tomorrow and day after is to finish stages 1 and 2.
+
+## Wednesday July 26
+Finished a good chunk of bubble sort and time complexity. Changed some things on the curriculum. Added gifs for visualization using pylab created by glowing python. For tomorrow, finish up stage 1 and hopefully finish stage 2 as well. If not, will have to do some extra work at home.
