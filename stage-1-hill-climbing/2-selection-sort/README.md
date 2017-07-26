@@ -52,8 +52,12 @@ selection_sort(ls)
 Selection is a pretty inefficent sort. For larger lists, you're going to be checking over everything many, many times. For our small data sets, this won't really make a difference, but once we get over, let's say, 1000 items, the speed will be noticeably slower than the more efficent algorithm.
 
 ## Extra Resources
-[Why are Sorting Algorithms Important?](https://www.crondose.com/2016/07/sorting-algorithms-important/)
-[Harvard's CS 50 Lecture covering Selection sort](https://youtu.be/jUyQqLvg8Qw?t=27m50s)
+1. [Why are Sorting Algorithms Important?](https://www.crondose.com/2016/07/sorting-algorithms-important/)
+    * Explains the importance of sorting algorithms...we're going to be writing a lot of these!
+2. [Harvard's CS 50 Lecture covering Selection sort](https://youtu.be/jUyQqLvg8Qw?t=27m50s)
+    * An explanation of the algorithm
+3. [Visualization by VisuAlgo](https://visualgo.net/en/sorting)
+    * A visualization with PseudoCode. Remember to click Selection Sort at the top, the default is Bubble Sort.
 
 ## Coding Task
 Go [here](https://github.com/haw230/selection-sort) to complete your coding task!
