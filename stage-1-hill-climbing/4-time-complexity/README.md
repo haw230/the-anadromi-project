@@ -1,5 +1,5 @@
 # Time Complexity
-Time complexity measures the running time of an algorithm when given an input size. This measure isn't meant to be accurate—it just finds a rough idea of how efficent the algorithm is. The most common way of representing this is through the *big-O* notation (the name isn't creative, it's just a capital O function). Typically this notation describes the upper bound, or the worst-case timewise scenario. We'll take some common representations of time complexity and examine them.
+Time complexity measures the running time of an algorithm when given an input size. This measure isn't meant to be accurate—it just finds a rough idea of how efficent the algorithm is. The most common way of representing this is through the *big-O* notation (the name isn't creative, it's just a capital O function). Typically this notation describes the upper bound, or otherwise known as the worst-case runtime scenario. There are other notations such as *big-Ω notation* which describes the lower bound (best possible time), but big-O is most common and remember that the others only describe different bounds. We'll take some common representations of time complexity and examine them.
 
 ## O(1)
 ```O(1)``` describes a *constant* function. No matter what you input, the number of steps it takes will be simply 1.
@@ -32,6 +32,7 @@ def selection_sort(ls):
         del ls[lowest + 1]
     return ls
 ```
-Well, this must look familiar. Selection sort had a very inefficent time complexity because it loops over the input twice. It goes over the list to find the smallest element, move it to the its designated spot, and has to do this for **each** element of the list. For a list of ```[2, 1, 3]```, selection must go over the list to find the 1, move it at the front, then again to find the 2 and moves it, then again for 3 and move that. We might know that after inserting the 1 in its proper place, the list is already sorted, but the program doesn't and will continue running and checking.
+Well, this must look familiar. Selection sort had a very inefficent time complexity because it loops over the input twice. It goes over the list to find the smallest element, move it to the its designated spot, and has to do this for **each** element of the list. For a list of ```[2, 1, 3]```, selection must go over the list to find the 1, move it at the front, then again to find the 2 and moves it, then again for 3 and move that. We might know that after inserting the 1 in its proper place, the list is already sorted, but the program doesn't know that and will continue running and checking.
 
 ## O(log n)
+With logarithms, the result will be ten to the power of a *certain number* will be ```n``` and the time taken will be that *certain number*. [Here](https://youtu.be/Z5myJ8dg_rM) is a Khan Academy lesson on logs. So, 
