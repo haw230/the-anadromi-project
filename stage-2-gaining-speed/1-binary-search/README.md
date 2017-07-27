@@ -15,9 +15,10 @@
 Even if you don't know how logarithms work, you can still see from the graph that a logarithmic function is much more efficent than a linear one. Binary search relies on dividing and conquering, which allows it to actually run faster than the input size.
 
 ## Theory
-Binary search is all about recursion. It only works on sorted lists, but that's okay—it's fast. As said in the introduction, the search relies on dividing and conquering for its efficency. We don't have to check what logically does not need to be checked. 
+Binary search is all about recursion. It only works on sorted lists, but that's okay—it's fast. As said in the introduction, the search relies on dividing and conquering for its efficency. We don't have to check what logically does not need to be checked. Just like [searching through a phonebook](https://youtu.be/zFenJJtAEzE?t=19m0s), we eliminate half the problem each time using binary search instead of eliminating only a single item with linear search.
 
 ## PseudoCode
+
 
 ## Analysis
 
