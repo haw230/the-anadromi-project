@@ -39,23 +39,33 @@ swap(ls, i):
 ```
 Notice that when we call the swap function, we pass in ```i``` **and** ```ls```. Because a list is a [*complex data structure*](), the variable ```ls``` doesn't directly store it's data—it stores a reference to that list in Python's memory. When you pass in the reference and make a change to the list, that change will be reflected for every following use of ```ls```, even though ```bubble_sort()``` is a completely different function. Again, ```ls``` stores a reference, so passing that to ```swap()``` will let it change the same list we've passed into ```bubbble_sort```. 
 
-An intuitive to do the swap is to to set a temporary variable to ```ls at i```, then set ```ls at i``` to ```ls at i + 1 ```, and finally setting ```ls at i + 1``` to the temporary variable. Imagine that you have a glass of milk and a glass of orange juise and for some reason you want to swap their cups. With the help of an empty cup, you can pour the milk into the empty one, pour the orange juice into the milk's cup, and then pour the milk to the orange juice's cup. And here is our final PseudoCode.
+An intuitive to do the swap is to to set a temporary variable to ```ls at i```, then set ```ls at i``` to ```ls at i + 1 ```, and finally setting ```ls at i + 1``` to the temporary variable. Imagine that you have a glass of milk and a glass of orange juise and for some reason you want to swap their cups. With the help of an empty cup, you can pour the milk into the empty one, pour the orange juice into the milk's cup, and then pour the milk to the orange juice's cup. And here is our final ```swap()```:
 
 ```
-bubble_sort(ls):
-    while not sorted:
-        for i in range(len(ls)):
-            if elem at position i is greater than ls at position 1 + 1:
-                swap(ls, i)
-    return ls
-            
 swap(ls, i):
     temp set to ls at i
     ls at i set to ls at i + 1
     ls at i + 1 set to temp
 ```
-There is another way to swap two them in a single line. Because Python supports simultaneous variable assignment, you can swap two values with something like ```x, y = y, x```.
+NOTE: There is another way to swap two them in a single line. Because Python supports simultaneous variable assignment, you can swap two values with something like ```x, y = y, x```.
 
+We're still going to need a way to find out whether or not the list is done sorted. Well, when we go through the entire list and we've made no swaps, that means it's all good. We'll use the variable in the ```while``` loop: ```sorted```. We'll assume the list is good and set ```sorted``` to ```True```, but when we find out that we need to swap something, then ```sorted``` is actually ```False``` because we the list isn't sorted. If we make it through the whole list without a swap, ```sorted``` will be ```True``` and the loop will terminate. Here's our final PseudoCode:
+```
+bubble_sort(ls):
+    sorted = False #set to False so the while loop actually runs
+    while not sorted:
+        sorted = True #assume it's True
+        for i in range(len(ls)):
+            if elem at position i is greater than ls at position 1 + 1:
+                sorted = False #list isn't sorted
+                swap(ls, i)
+    return ls
+           
+swap(ls, i):
+    temp set to ls at i
+    ls at i set to ls at i + 1
+    ls at i + 1 set to temp      
+```
 ## Analysis
 
 ## Extra Resources
