@@ -89,10 +89,10 @@ def factorial(num):
 The base case here is when ```num < 2```. There, the function returns 1 and no longer calls itself anymore. When this happens, the other stacks can resolve. What does that even mean? Let's call ```factorial(4)```. ```num``` is set to 4 which is greater than 2 so ```return num * factorial(num - 1)``` will run as ```return 4 * factorial(3)```. Except, what the heck is ```factorial(3)```? The function has to find out so it will call itself with ```num``` as 3. That's greater than two, so ```return 3 * factorial(2)``` runs. Again, what's ```factorial(2)```? Gotta run that and since 2 is not less than 2, ```return 2 * factorial(1)``` runs. Finally, ```num``` is set to 1 which is less than 2, so ```return 1```. Now we have a solid answer without need to call the function again, the stacks resolve. Here's what the process looks like:
 ```python
 factorial(4) #original function call
-return 4 * factorial(3) #tries to return this but has to run factorial(3)
-return 3 * factorial(2) #gotta run factorial(2)
-return 2 * factorial(1) #gotta run factorial(1)
-return 1 #base case reached
+factorial(4) -> return 4 * factorial(3) #tries to return this but has to run factorial(3)
+factorial(3) -> return 3 * factorial(2) #gotta run factorial(2)
+factorial(2) -> return 2 * factorial(1) #gotta run factorial(1)
+factorial(1) -> return 1 #base case reached
 ```
 So when the function finds out that factorial(1) returns 1, it can start solving the other calls. ```factorial(2)``` returns ```2 * factorial(1)``` which after the resolution is 2 * 1. ```factorial(3)``` returns ```3 * factorial(2)``` which after the resolution is 3 * 2. ```factorial(4)``` returns ```4 * factorial(3)``` which after the resolution is 4 * 6. Recursion let us do multiple processes in just a few lines of code, allowing for a much more elegant solution than iteration. 
 
