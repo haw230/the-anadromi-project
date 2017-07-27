@@ -18,7 +18,43 @@ Bubble sort was given its name because the larger would all bubble to the end. H
 As you can see, the plots at the end start bunching up. The way bubble sort works is that it looks at the first and the second element. If the first is larger than the second, swap them. Otherwise don't do anything. Then, look at the second and third, swap if necessary and repeat that until the list is sorted.
 
 ## PseudoCode
-This, like selection sort, seems simple in theory, but the code implementation is a bit more difficult.
+This, like selection sort, seems simple in theory, but the code implementation is a bit more difficult. First, we have to a loop to iterate over the list until it is sorted. Then, we need another loop to compare and swap the elements. Here's our base code:
+```
+bubble_sort(ls):
+    while not sorted:
+        for i in range(len(ls)):
+            compare and swap
+```
+Comparing is pretty easy—check whether or not is ```ls``` at ```i``` is greater than ```ls``` at ```i + 1``` (adding one would refer the next element). If the element at position ```i``` is greater, swap them. The swapping process will be slightly more different. We'll make a separate function to do this process, making our code neater.
+```
+bubble_sort(ls):
+    while not sorted:
+        for i in range(len(ls)):
+            if elem at position i is greater than ls at position 1 + 1:
+                swap(ls, i)
+    return ls
+            
+swap(ls, i):
+    some swapping magic
+```
+Notice that when we call the swap function, we pass in ```i``` **and** ```ls```. Because a list is a [*complex data structure*](), the variable ```ls``` doesn't directly store it's data—it stores a reference to that list in Python's memory. When you pass in the reference and make a change to the list, that change will be reflected for every following use of ```ls```, even though ```bubble_sort()``` is a completely different function. Again, ```ls``` stores a reference, so passing that to ```swap()``` will let it change the same list we've passed into ```bubbble_sort```. 
+
+An intuitive to do the swap is to to set a temporary variable to ```ls at i```, then set ```ls at i``` to ```ls at i + 1 ```, and finally setting ```ls at i + 1``` to the temporary variable. Imagine that you have a glass of milk and a glass of orange juise and for some reason you want to swap their cups. With the help of an empty cup, you can pour the milk into the empty one, pour the orange juice into the milk's cup, and then pour the milk to the orange juice's cup. And here is our final PseudoCode.
+
+```
+bubble_sort(ls):
+    while not sorted:
+        for i in range(len(ls)):
+            if elem at position i is greater than ls at position 1 + 1:
+                swap(ls, i)
+    return ls
+            
+swap(ls, i):
+    temp set to ls at i
+    ls at i set to ls at i + 1
+    ls at i + 1 set to temp
+```
+There is another way to swap two them in a single line. Because Python supports simultaneous variable assignment, you can swap two values with something like ```x, y = y, x```.
 
 ## Analysis
 
@@ -28,6 +64,9 @@ This, like selection sort, seems simple in theory, but the code implementation i
 Go [here](https://github.com/haw230/bubble-sort) for the coding task!
 
 ## Key Words
+#### Complex Data Structures
+
+
 #### Element
 An item inside a list. In the list ```[1, 2, 3]``` 1, 2, and 3 are all elements.
 
