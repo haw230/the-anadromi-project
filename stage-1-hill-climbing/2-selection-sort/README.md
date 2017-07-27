@@ -15,6 +15,7 @@ Lets get a [*list*](#list) again: ```[1, 3, 5, 4, 2]```. Our goal? Sort it. This
 ## Theory
 Selection sort is pretty simple to understand. [*Iterate*](#iterate) through the list and find the lowest number. Move it to the front. 
 ![Alt Text](https://github.com/haw230/the-anadromi-project/blob/pictures/selection_sort_animation.gif)
+
 Iterate through it again and find the next lowest. Rinse and repeat until the list is sorted.
 
 ## PseudoCode
