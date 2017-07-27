@@ -10,9 +10,9 @@
 7. [Key Words](#key-words "Important terms")
 
 ## Introduction
-[*Recursion*] is the pinnacle of effective programming. It's complex, it's elegant, and it's effective. The binary search we will be writing today has the time complexity of O(log n) instead of linear search's O(n)
+[*Recursion*](#recursion "Anadromi") is the pinnacle of effective programming. It's complex, it's elegant, and it's effective. The binary search we will be writing today has the time complexity of O(log n) instead of linear search's O(n)
 ![Alt text](https://github.com/haw230/the-anadromi-project/blob/pictures/linear_vs_log.png)
-You might not know how logarithms work but from this graph, you can see that a logarithmic function is much more efficent. Binary search relies on dividing and conquering, which allows it to actually run faster than the input size.
+Even if you don't know how logarithms work, you can still see from the graph that a logarithmic function is much more efficent than a linaer one. Binary search relies on dividing and conquering, which allows it to actually run faster than the input size.
 
 ## Theory
 
@@ -94,7 +94,7 @@ factorial(3) -> return 3 * factorial(2) #gotta run factorial(2)
 factorial(2) -> return 2 * factorial(1) #gotta run factorial(1)
 factorial(1) -> return 1 #base case reached
 ```
-So when the function finds out that factorial(1) returns 1, it can start solving the other calls. ```factorial(2)``` returns ```2 * factorial(1)``` which after the resolution is 2 * 1. ```factorial(3)``` returns ```3 * factorial(2)``` which after the resolution is 3 * 2. ```factorial(4)``` returns ```4 * factorial(3)``` which after the resolution is 4 * 6. Recursion let us do multiple processes in just a few lines of code, allowing for a much more elegant solution than iteration. 
+Each of the calls are an individual stack. So when the last call finds out that factorial(1) returns 1, it can start solving the other previous calls. ```factorial(2)``` returns ```2 * factorial(1)``` which after the resolution is 2 * 1. ```factorial(3)``` returns ```3 * factorial(2)``` which after the resolution is 3 * 2. ```factorial(4)``` returns ```4 * factorial(3)``` which after the resolution is 4 * 6. Recursion let us do multiple processes in just a few lines of code, allowing for a much more elegant solution than iteration. 
 
 #### Return
 This will give back a certain value and end the function process. For example:
