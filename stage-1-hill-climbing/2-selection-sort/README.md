@@ -13,7 +13,9 @@
 Lets get a [*list*](#list) again: ```[1, 3, 5, 4, 2]```. Our goal? Sort it. This function will take in that list or a similar one and will output a sorted list in ascending order ```[1, 2, 3, 4, 5]```. We're only going to deal with numbers and we'll be using selection sort to put it in order. Sorting is vital for dealing with data and while programming, there's always lost of data. But [here](https://www.crondose.com/2016/07/sorting-algorithms-important/) is a good explanation of the importance of sorting algorithms. Even if they aren't that important, they're still great for coding practice.
 
 ## Theory
-Selection sort is pretty simple to understand. [*Iterate*](#iterate) through the list and find the lowest number. Move it to the front. Iterate through it again and find the next lowest. Rinse and repeat until the list is sorted.
+Selection sort is pretty simple to understand. [*Iterate*](#iterate) through the list and find the lowest number. Move it to the front. 
+![Alt Text](https://github.com/haw230/the-anadromi-project/blob/pictures/selection_sort_animation.gif)
+Iterate through it again and find the next lowest. Rinse and repeat until the list is sorted.
 
 ## PseudoCode
 The theory was fairly simple, but the coding will be slightly tougher.

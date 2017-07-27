@@ -7,6 +7,7 @@
 * ```git checkout -b new-branch-name``` switches branches
 * ```git remote -v``` find out where you're fetching/pushing from
 * ```git remote set-url origin https://github.com/USERNAME/REPOSITORY.git``` set to url
+* ```git rm -r *``` deletes everything
 
 # Bash Commands
 * ```pwd``` finds current path

@@ -35,4 +35,6 @@ def selection_sort(ls):
 Well, this must look familiar. Selection sort had a very inefficent time complexity because it loops over the input twice. It goes over the list to find the smallest element, move it to the its designated spot, and has to do this for **each** element of the list. For a list of ```[2, 1, 3]```, selection must go over the list to find the 1, move it at the front, then again to find the 2 and moves it, then again for 3 and move that. We might know that after inserting the 1 in its proper place, the list is already sorted, but the program doesn't know that and will continue running and checking.
 
 ## Conclusion
-Well, those were some important measures of algorithm efficency. From we've see so far, 
+Well, those were some important measures of algorithm efficency. There's more to cover in part two,  Here's the complexity of the algorithms we've seen so far:
+![alt text](https://github.com/haw230/the-anadromi-project/blob/pictures/time_complexity_graph.png "Time Complexity Graph")
+
