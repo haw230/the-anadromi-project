@@ -65,7 +65,20 @@ Go [here](https://github.com/haw230/bubble-sort) for the coding task!
 
 ## Key Words
 #### Complex Data Structures
+Ints, floats, and strings are basic data structures. Whenever you use one of these values, the Python interpreter just attaches the data to the variable name. However, for complex data structures, the interpreter attaches a reference to variable. The reference will point to the list
+```python
+#Simple Data Type
+x = 3
+y = x
+x += 1 #x is now 4
+print(x, y) #4 3
 
+ls1 = [1, 2, 3]
+ls2 = ls1
+ls1.append(4) #ls1 is now [1, 2, 3, 4]
+print(ls1 ls2) #[1, 2, 3, 4] [1, 2, 3, 4]
+```
+Most of the time the difference between storing references versus storing the actual data is negligible, but here is a good example. 
 
 #### Element
 An item inside a list. In the list ```[1, 2, 3]``` 1, 2, and 3 are all elements.
