@@ -22,9 +22,22 @@
 - [X] Bubble sort
 - [X] Time complexity Part 1
 
-#### Stage 2: Gaining Speed
-- [ ] Biniary search
+#### Stage 2: Gaining Speed (July 30)
+- [ ] Binary search
 - [ ] Merge sort
 - [ ] Quicksort
 - [ ] Time complexity Part 2
 - [ ] Tower of Hanoi
+
+#### Stage 3: At the Top (August 4)
+- [ ] Actually learn material well enough to teach it
+- [ ] Greedy
+- [ ] Binary Search Tree
+- [ ] Dynamic Programming
+
+### Final (August 5)
+- [ ] Review all lessons
+- [ ] Check that everything works
+- [ ] Promote
+- [ ] Make website (optional)
+- [ ] Make poster
