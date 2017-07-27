@@ -36,5 +36,5 @@ Well, this must look familiar. Selection sort had a very inefficent time complex
 
 ## Conclusion
 Well, those were some important measures of algorithm efficency. There's more to cover in part two,  Here's the complexity of the algorithms we've seen so far:
-![alt text](https://github.com/haw230/the-anadromi-project/blob/pictures/time_complexity_graph.png "Time Complexity Graph")
+![alt text](https://github.com/haw230/the-anadromi-project/blob/pictures/time-complexity-graph.png "Time Complexity Graph")
 
