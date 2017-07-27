@@ -65,7 +65,7 @@ Go [here](https://github.com/haw230/bubble-sort) for the coding task!
 
 ## Key Words
 #### Complex Data Structures
-Ints, floats, and strings are basic data structures. Whenever you use one of these values, the Python interpreter just attaches the data to the variable name. However, for complex data structures, the interpreter attaches a reference to variable. The reference will point to the list
+Ints, floats, and strings are basic data structures. Whenever you use one of these values, the Python interpreter just attaches the data to the variable name. However, for complex data structures, the interpreter attaches a reference to the variable instead of the raw value. The reference will point to the list which is made and stored somewhere in the memory.
 ```python
 #Simple Data Type
 x = 3
@@ -78,7 +78,11 @@ ls2 = ls1
 ls1.append(4) #ls1 is now [1, 2, 3, 4]
 print(ls1 ls2) #[1, 2, 3, 4] [1, 2, 3, 4]
 ```
-Most of the time the difference between storing references versus storing the actual data is negligible, but here is a good example. 
+Most of the time the difference between storing references versus storing the actual data is negligible, but here is a good example. The variables ```x``` and ```y``` are completely independant: when ```x``` is changed, ```y``` does not. They're just separate pieces of data. Meanwhile, in the line ```ls2 = ls```, ```ls2``` takes the reference of ```ls1```, which means these two list variables both store a reference to the same list in memory. In the next line, when ```ls1.append(4)``` happens, the list that ```ls1``` references is changed. Since ```ls2``` references it too, it's also changed.
+
+Again, for most of the time, this shouldn't be too concerning. If you wanted two separate lists that don't change each other, just set ```ls2 = [1, 2, 3]``` (creating a completely new list and referencing that) instead of ```ls2 = ls1``` (sets reference to ```ls1```).
+
+Anyway, that explains why we pass in ```ls``` to ```swap()``` without worrying about the function having to return anything—```ls``` will reference the same list we've been trying to sort the whole time so changing that would end up effective.
 
 #### Element
 An item inside a list. In the list ```[1, 2, 3]``` 1, 2, and 3 are all elements.
