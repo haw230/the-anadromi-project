@@ -67,6 +67,7 @@ swap(ls, i):
     ls at i + 1 set to temp      
 ```
 ## Analysis
+Bubble sort runs at a pretty inefficent rate. However, here is 
 
 ## Extra Resources
 
