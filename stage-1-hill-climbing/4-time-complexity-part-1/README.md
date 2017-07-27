@@ -37,4 +37,5 @@ Well, this must look familiar. Selection sort had a very inefficent time complex
 ## Conclusion
 Well, those were some important measures of algorithm efficency. There's more to cover in part two,  Here's the complexity of the algorithms we've seen so far:
 ![alt text](https://github.com/haw230/the-anadromi-project/blob/pictures/time-complexity-graph.png "Time Complexity Graph")
+Even though I used big-O notation in the legend, I also included the efficency of different cases. Anyway, we can see that as the input size grows larger and larger, the time for quadratic functions skyrocket. This means we're going to need much better sorting algorithms. Linear search isn't awful, but we could do much better. Though, you may have noticed bubble sort's best case isn't bad. Well, the best case occurs only when the list is already sorted so bubble sort just goes through the list, nothing gets swapped, and then give back the list. A more efficent search and two more efficent sorts are coming up in the next stage!
 
