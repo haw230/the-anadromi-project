@@ -19,5 +19,12 @@
 #### Stage 1: Hill Climbing
 - [x] Linear search
 - [X] Selection sort
-- [ ] Bubble sort
-- [ ] Time complexity
+- [X] Bubble sort
+- [X] Time complexity Part 1
+
+#### Stage 2: Gaining Speed
+- [ ] Biniary search
+- [ ] Merge sort
+- [ ] Quicksort
+- [ ] Time complexity Part 2
+- [ ] Tower of Hanoi
