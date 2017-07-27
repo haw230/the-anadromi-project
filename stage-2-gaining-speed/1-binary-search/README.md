@@ -10,11 +10,12 @@
 7. [Key Words](#key-words "Important terms")
 
 ## Introduction
-[*Recursion*](#recursion "Anadromi") is the pinnacle of effective programming. It's complex, it's elegant, and it's effective. The binary search we will be writing today has the time complexity of O(log n) instead of linear search's O(n)
+[*Recursion*](#recursion "Anadromi") is the pinnacle of effective programming. It's complex, it's elegant, and it's effective. The binary search we will be writing today has the time complexity of O(log n) instead of linear search's O(n).
 ![Alt text](https://github.com/haw230/the-anadromi-project/blob/pictures/linear_vs_log.png)
-Even if you don't know how logarithms work, you can still see from the graph that a logarithmic function is much more efficent than a linaer one. Binary search relies on dividing and conquering, which allows it to actually run faster than the input size.
+Even if you don't know how logarithms work, you can still see from the graph that a logarithmic function is much more efficent than a linear one. Binary search relies on dividing and conquering, which allows it to actually run faster than the input size.
 
 ## Theory
+Binary search is all about recursion. It only works on sorted lists, but that's okay—it's fast. As said in the introduction, the search relies on dividing and conquering for its efficency. We don't have to check what logically does not need to be checked. 
 
 ## PseudoCode
 
