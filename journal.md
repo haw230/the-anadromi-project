@@ -16,3 +16,6 @@ Wrote my own test. Works great, tested multiple times. Going to implement it for
 
 ## Wednesday July 26
 Finished a good chunk of bubble sort and time complexity. Changed some things on the curriculum. Added gifs for visualization using pylab created by glowing python. For tomorrow, finish up stage 1 and hopefully finish stage 2 as well. If not, will have to do some extra work at home.
+
+## Thursday July 27
+Finished remainder of bubble sort and time complexity. Worked on binary search. Fixed bugs.
