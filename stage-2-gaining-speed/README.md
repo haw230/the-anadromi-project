@@ -30,15 +30,16 @@ Let's start off with a warm-up exercise: a binary check. It's a watered-down ver
 ```python
 def binary_check(ls, num):
     #check if ls is empty
-    #set mid to middle of list
-    #check if the middle of the list is equal to num
-        return True
-    #if num is less than list at mid
-        return binary_check(ls[:mid], num)
-    #if num is greater than list at mid
-        return binary_check(ls[mid + 1:], num)
+        #set mid to middle of list
+        #check if the middle of the list is equal to num
+            return True
+        #if num is less than list at mid
+            return binary_check(ls[:mid], num)
+        #if num is greater than list at mid
+            return binary_check(ls[mid + 1:], num)
+    return False
 ```
-The middle of the list can be easily caculated—it's just ```int(len(ls)/2)```. The ```int()``` is there to convert the float (which includes decimals) to integer (which does not). Doing so would cut off any decimals in case we divide an odd list by 2.
+The very first check is self-explanatory: Dealing with an empty list will crash our program. ```if(ls):``` would be suffice to check it as an empty list would convert to ```False``` in the ```if``` while a list containing elements would convert to ```True```. What more, if the list is empty, then it's impossible for ```num``` to be in it (since it's empty). The next step calculates the middle of the list with ```int(len(ls)/2)```. The ```int()``` is there to convert the float (which includes decimals) to integer (which does not). Doing so would cut off any decimals in case we divide an odd list by 2.
 
 Here's the logic of the algorithm: It starts checking at the middle and if that middle element is greater than the element is less than the element we're searching for, start looking at the smaller half. Otherwise, look at the greater half. Unless of couse, the middle element *is* the on we're looking for, in which case, we ```return True```.
 
@@ -48,14 +49,16 @@ Of course, there's something missing: a ```False``` case. Right after checking i
 
 ```python
 def binary_check(ls, num):
-    #set mid to middle of list
-    #check if the middle of the list is equal to num
-        return True
-    #check if mid less than or equal to 1
-        return False
-    #if num is less than list at mid
-        return binary_check(ls[:mid], num)
-    #if num is greater than list at mid
-        return binary_check(ls[mid + 1:], num)
+    if ls is empty
+        #set mid to middle of list
+        #check if the middle of the list is equal to num
+            return True
+        #check if mid less than or equal to 1
+            return False
+        #if num is less than list at mid
+            return binary_check(ls[:mid], num)
+        #if num is greater than list at mid
+            return binary_check(ls[mid + 1:], num)
+    return True
 ```
 Having the ```if(mid <= 1)``` **after** the ```if(ls[mid] == num)``` because that last number could very well be the one we're looking for. Alright, that was all the PseudoCode, go [here](https://github.com/haw230/binary-search/tree/binary-check) to implement your solution.
