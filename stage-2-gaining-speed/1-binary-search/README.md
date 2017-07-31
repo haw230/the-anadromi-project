@@ -17,11 +17,27 @@ Even if you don't know how logarithms work, you can still see from the graph tha
 ## Theory
 Binary search is all about recursion. It only works on sorted lists, but that's okay—it's fast. As said in the introduction, the search relies on dividing and conquering for its efficency. We don't have to check what logically does not need to be checked. Just like [searching through a phonebook](https://youtu.be/zFenJJtAEzE?t=19m0s), we eliminate half the problem each time using binary search instead of eliminating only a single item with linear search.
 
-When the function takes in a list and the number it's searching for, you can skip to the middle of the list: if your number is greater than that middle number, look at the right side, otherwise, look at the left side (unless that middle number *is* your number in which case just return that). 
+When the function takes in a list and the number it's searching for, you can skip to the middle of the list: if your number is greater than that middle number, look at the right side, otherwise, look at the left side (unless that middle number *is* your number in which case just return that).
 
 ## PseudoCode
 Alright, let's  do some recursion. For recursive functions, we need to be wary of parameters. We'll need ```ls``` and ```num``` as always, because one's the list we're searching and the other is the item we're looking for. But for the recursive function to work, we need two extra parameters: ```low``` and ```high```. These two parameters keep track of what part of the list we currently are looking at and they help us figure out what we return for the index.
 
+```low```, when you call the function the first time is 0 and ```high``` is ```len(ls) - 1```. This is because in your first call, you want start with the entire list. Next, assign ```mid``` to the middle element's index: ```int((low + high) / 2)```. Just like binary check, check if ```ls[mid]``` is ```num```, if so, just give back ```mid```. Otherwise, check whether ```ls[mid]``` is greater or lesser and then call the function accordingly.
+```python
+def binary_search(ls, num, low, high):
+    mid = int((low + high) / 2)
+    if(ls[mid] == num):
+        return mid
+    if(num > ls[mid]):
+        return binary_search(ls, num, low, high)
+    if(num < ls[mid]):
+        return binary_search(ls, num, low, high)
+```
+Remember for binary check, we had to pass in a sliced version of the list? We can't do the same for binary search otherwise we loose the position of the index. So that's where ```low``` and ```high``` come into place. In our PseudoCode that has come to look suspiciously like real code, calling ```low``` and ```high``` as they are isn't right—we want to shorten the gap between ```low``` and ```high``` with each recursion.
+
+In statement ```if(num > ls[mid]):```, we know that ```num``` has to be on the right side of the list because it's greater than what's just in the middle. So, the lowest index ```num``` can possibly have is going to be one more than the middle number index (since the middle number index is smaller). Or if ```num``` is smaller, we take the left side of the list, so we have all the way from the first element to one less than the middle number index (since the middle number index is larger). We keep doing this until we're only ```low``` and ```high``` finds ```mid```.
+
+But we still have to perform a check to see if the element is *not* in the list ay all. When do we know to stop? Since 
 ## Analysis
 
 ## Extra Resources
