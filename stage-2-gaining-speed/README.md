@@ -24,7 +24,7 @@ factorial(1) -> return 1 #base case reached
 ```
 Each of the calls are an individual stack. So when the last call finds out that factorial(1) returns 1, it can start solving the other previous calls. ```factorial(2)``` returns ```2 * factorial(1)``` which after the resolution is 2 * 1. ```factorial(3)``` returns ```3 * factorial(2)``` which after the resolution is 3 * 2. ```factorial(4)``` returns ```4 * factorial(3)``` which after the resolution is 4 * 6. Recursion let us do multiple processes in just a few lines of code, allowing for a much more elegant solution than iteration. 
 
-## Binary Check PseudCode
+## Binary Check PseudoCode
 Let's start off with a warm-up exercise: a binary check. It's a watered-down version of the binary search, where you will use recursion to check whether or not an element is indeed inside a list. Here, you only have to return a simple ```True``` or ```False```. Built on dividing and conquering, binary check will be far faster than checking every individual element. The list will be assumed to be sorted already in ascending order.
 
 ```python
