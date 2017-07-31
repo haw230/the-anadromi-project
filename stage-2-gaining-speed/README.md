@@ -43,18 +43,18 @@ Here's the logic of the algorithm: It starts checking at the middle and if that 
 
 You can see that when we call ```binary_check()``` again, the list is cut down using appendices. ```ls[:mid]``` will only include elements from the beginning to one before the middle (Python appendices are non inclusive), while ```ls[mid + 1:]``` will be from the middle to the very end. So, with each call, the list handed into ```binary_check()``` will get smaller (as we're passing in only half of the elements each time). If we were looking for 5 in the list ```[1, 2, 3, 4, 5]```, we know 5 is greater than 3, so what's the point of checking the numbers less than three?
 
-Of course, there's something missing: a ```False``` case. Right after checking if ```num``` is equal to ```ls[mid]```, we need to check ```if(mid == 0)```. If ```mid``` is indeed 0, it means we have one element in that list which means we have not found it.
+Of course, there's something missing: a ```False``` case. Right after checking if ```num``` is equal to ```ls[mid]```, we need to check ```if(mid <= 1)```. Having the less or equal to operator (instead of just ```==```) is necessary to cover cases that pass in an empty list.
 
 ```python
 def binary_check(ls, num):
     #set mid to middle of list
     #check if the middle of the list is equal to num
         return True
-    #check if len(ls) less than or equal to 1
+    #check if mid less than or equal to 1
         return False
     #if num is less than list at mid
         return binary_check(ls[:mid], num)
     #if num is greater than list at mid
         return binary_check(ls[mid + 1:], num)
 ```
-Having the ```if(mid == 0)``` **after** the ```if(ls[mid] == num)``` because that last number could very well be the one we're looking for. Alright, that was all the PseudoCode, go [here](https://github.com/haw230/binary-search/tree/binary-check) to implement your solution.
+Having the ```if(mid <= 1)``` **after** the ```if(ls[mid] == num)``` because that last number could very well be the one we're looking for. Alright, that was all the PseudoCode, go [here](https://github.com/haw230/binary-search/tree/binary-check) to implement your solution.
