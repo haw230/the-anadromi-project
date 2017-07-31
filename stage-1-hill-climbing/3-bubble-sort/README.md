@@ -10,11 +10,11 @@
 7. [Key Words](#key-words "Important terms")
 
 ## Introduction
-Since you've got selection sort down, bubble sort will be pretty easy. They're pretty similar algorithms, relying on relatively simple logic, but bubble sort is **slightly** more efficent, depending on the type of list. Though, they are both very wasteful compared to the algorithms we'll tackle in the stage 2. Anyway, lets practice our coding with some bubble sort!
+Since you've got selection sort down, bubble sort will be pretty easy. They're pretty similar algorithms, relying on relatively simple logic, but bubble sort is another way to sort, with roughly the same efficency. Though, they are both very wasteful compared to the algorithms we'll tackle in the stage 2. Anyway, lets practice our coding with some bubble sort!
 
 ## Theory
 Bubble sort was given its name because the larger would all bubble to the end. Here is an animation of bubble sort:
-![Alt Text](https://github.com/haw230/the-anadromi-project/blob/pictures/bubble_sort_animation.gif)
+![Alt Text](https://github.com/haw230/the-anadromi-project/blob/pictures/bubble_sort_animation.gif)<br>
 As you can see, the plots at the end start bunching up. The way bubble sort works is that it looks at the first and the second element. If the first is larger than the second, swap them. Otherwise don't do anything. Then, look at the second and third, swap if necessary and repeat that until the list is sorted.
 
 ## PseudoCode
@@ -67,6 +67,7 @@ swap(ls, i):
     ls at i + 1 set to temp      
 ```
 ## Analysis
+Bubble sort runs at a pretty inefficent rate. However, here is 
 
 ## Extra Resources
 

@@ -15,6 +15,7 @@ Lets get a [*list*](#list) again: ```[1, 3, 5, 4, 2]```. Our goal? Sort it. This
 ## Theory
 Selection sort is pretty simple to understand. [*Iterate*](#iterate) through the list and find the lowest number. Move it to the front. 
 ![Alt Text](https://github.com/haw230/the-anadromi-project/blob/pictures/selection_sort_animation.gif)
+
 Iterate through it again and find the next lowest. Rinse and repeat until the list is sorted.
 
 ## PseudoCode
@@ -36,7 +37,7 @@ selection_sort(ls)
                 set index_of_lowest to j
         by now, index_of_lowest has the lowest index, so move that to i
 ```
-Man, that's a lot of steps, but we're not quite done yet. We have to [*insert*](insert) it. With ```ls.insert(i, item)```, we can do just that. It's not as easy as simply inserting it because if we just blindly insert the item in there, we would have duplicates in the list. We also need to delete the item that we inserted. Since we know that ```insert()``` pushes everything back by 1, the index will just be ```index_of_lowest + 1```, due to the insertion.
+Man, that's a lot of steps, but we're not quite done yet. We have to [*insert*](insert) it. With ```ls.insert(i, item)```, we can do just that. It's not as easy as simply inserting it because if we just blindly insert the item in there, we would have duplicates in the list. We also need to delete the item that we inserted. To do that, we need to use ```pop(lowest)``` which will delete the item at the lowest position and returns it. So ```ls.insert(i, ls.pop(lowest))```.
 
 Alright, here's our final PseudoCode.
 ```
