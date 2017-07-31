@@ -1,4 +1,4 @@
-# Recursive Exercise
+# Introduction to Recursion
 ## What's Recursion?
 Recursion is when a function calls it self. Here's a poor implementation of it:
  ```python
@@ -33,7 +33,7 @@ def binary_check(ls, num):
     #check if the middle of the list is equal to num
         return True
     #if num is less than list at mid
-        return binary_check(ls[:mid - 1], num)
+        return binary_check(ls[:mid], num)
     #if num is greater than list at mid
         return binary_check(ls[mid + 1:], num)
 ```
@@ -41,7 +41,7 @@ The middle of the list can be easily caculated—it's just ```int(len(ls)/2)```.
 
 Here's the logic of the algorithm: It starts checking at the middle and if that middle element is greater than the element is less than the element we're searching for, start looking at the smaller half. Otherwise, look at the greater half. Unless of couse, the middle element *is* the on we're looking for, in which case, we ```return True```.
 
-You can see that when we call ```binary_check()``` again, the list is cut down using appendices. ```ls[:mid - 1]``` will only include elements from the beginning to the middle, minus one, while ```ls[mid + 1:]``` will be from the middle to the very end. So, with each call, the list handed into ```binary_check()``` will get smaller (as we're passing in only half of the elements each time). If we were looking for 5 in the list ```[1, 2, 3, 4, 5]```, we know 5 is greater than 3, so what's the point of checking the numbers less than three?
+You can see that when we call ```binary_check()``` again, the list is cut down using appendices. ```ls[:mid]``` will only include elements from the beginning to one before the middle (Python appendices are non inclusive), while ```ls[mid + 1:]``` will be from the middle to the very end. So, with each call, the list handed into ```binary_check()``` will get smaller (as we're passing in only half of the elements each time). If we were looking for 5 in the list ```[1, 2, 3, 4, 5]```, we know 5 is greater than 3, so what's the point of checking the numbers less than three?
 
 Of course, there's something missing: a ```False``` case. Right after checking if ```num``` is equal to ```ls[mid]```, we need to check ```if(mid == 0)```. If ```mid``` is indeed 0, it means we have one element in that list which means we have not found it.
 
@@ -50,10 +50,10 @@ def binary_check(ls, num):
     #set mid to middle of list
     #check if the middle of the list is equal to num
         return True
-    #check if mid is 0
+    #check if len(ls) less than or equal to 1
         return False
     #if num is less than list at mid
-        return binary_check(ls[:mid - 1], num)
+        return binary_check(ls[:mid], num)
     #if num is greater than list at mid
         return binary_check(ls[mid + 1:], num)
 ```
