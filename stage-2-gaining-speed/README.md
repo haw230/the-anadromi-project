@@ -2,7 +2,7 @@
 ## What's Recursion?
 Recursion is when a function calls it self. Here's a poor implementation of it:
  ```python
- def recurse():
+def recurse():
     recurse()
 ```
 Well, that's an infinite loop. Once you run ```recurse()``` it will just keep running itself repeatedly. That's why, when writing recursive functions, we always need a **base case** that stops it and a way to move towards it. Whenever a function calls itself, it creates a **stack** which creates an individual context of the simultaneously executing functions, each with their own variables.
