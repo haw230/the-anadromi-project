@@ -29,6 +29,7 @@ Let's start off with a warm-up exercise: a binary check. It's a watered-down ver
 
 ```python
 def binary_check(ls, num):
+    #check if ls is empty
     #set mid to middle of list
     #check if the middle of the list is equal to num
         return True
