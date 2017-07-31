@@ -12,7 +12,7 @@
 ## Introduction
 [*Recursion*](#recursion "Anadromi") is the pinnacle of effective programming. It's complex, it's elegant, and it's effective. The binary search we will be writing today has the time complexity of O(log n) instead of linear search's O(n).
 ![Alt text](https://github.com/haw230/the-anadromi-project/blob/pictures/linear_vs_log.png)
-Even if you don't know how logarithms work, you can still see from the graph that a logarithmic function is much more efficent than a linear one. Binary search relies on dividing and conquering, very similar to the [binary check](https://github.com/haw230/the-anadromi-project/tree/master/stage-2-gaining-speed), which allows it to actually run **faster** than the input size of n.
+Even if you don't know how logarithms work, you can still see from the graph that a logarithmic function is much more efficent than a linear one. Binary search relies on dividing and conquering, very similar to the [binary check](https://github.com/haw230/the-anadromi-project/tree/master/stage-2-gaining-speed), which allows it to actually run **faster** than the input size of n. Unlike binary check, we aren't returning a Boolean—we're going to have to return the index.
 
 ## Theory
 Binary search is all about recursion. It only works on sorted lists, but that's okay—it's fast. As said in the introduction, the search relies on dividing and conquering for its efficency. We don't have to check what logically does not need to be checked. Just like [searching through a phonebook](https://youtu.be/zFenJJtAEzE?t=19m0s), we eliminate half the problem each time using binary search instead of eliminating only a single item with linear search.
@@ -20,7 +20,7 @@ Binary search is all about recursion. It only works on sorted lists, but that's 
 When the function takes in a list and the number it's searching for, you can skip to the middle of the list: if your number is greater than that middle number, look at the right side, otherwise, look at the left side (unless that middle number *is* your number in which case just return that). 
 
 ## PseudoCode
-Alright, let's  do some recursion. For recursive functions, we need to be wary of parameters.
+Alright, let's  do some recursion. For recursive functions, we need to be wary of parameters. We'll need ```ls``` and ```num``` as always, because one's the list we're searching and the other is the item we're looking for. But for the recursive function to work, we need two extra parameters: ```low``` and ```high```. These two parameters keep track of what part of the list we currently are looking at and they help us figure out what we return for the index.
 
 ## Analysis
 
