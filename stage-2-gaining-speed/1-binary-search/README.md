@@ -20,7 +20,7 @@ Binary search is all about recursion. It only works on sorted lists, but that's 
 When the function takes in a list and the number it's searching for, you can skip to the middle of the list: if your number is greater than that middle number, look at the right side, otherwise, look at the left side (unless that middle number *is* your number in which case just return that). 
 
 ## PseudoCode
-
+Alright, let's  do some recursion. 
 
 ## Analysis
 
