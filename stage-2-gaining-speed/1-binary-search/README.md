@@ -12,7 +12,7 @@
 ## Introduction
 [*Recursion*](#recursion "Anadromi") is the pinnacle of effective programming. It's complex, it's elegant, and it's effective. The binary search we will be writing today has the time complexity of O(log n) instead of linear search's O(n).
 ![Alt text](https://github.com/haw230/the-anadromi-project/blob/pictures/linear_vs_log.png)
-Even if you don't know how logarithms work, you can still see from the graph that a logarithmic function is much more efficent than a linear one. Binary search relies on dividing and conquering, which allows it to actually run faster than the input size.
+Even if you don't know how logarithms work, you can still see from the graph that a logarithmic function is much more efficent than a linear one. Binary search relies on dividing and conquering, very similar to the [binary check](https://github.com/haw230/the-anadromi-project/tree/master/stage-2-gaining-speed), which allows it to actually run **faster** than the input size of n.
 
 ## Theory
 Binary search is all about recursion. It only works on sorted lists, but that's okay—it's fast. As said in the introduction, the search relies on dividing and conquering for its efficency. We don't have to check what logically does not need to be checked. Just like [searching through a phonebook](https://youtu.be/zFenJJtAEzE?t=19m0s), we eliminate half the problem each time using binary search instead of eliminating only a single item with linear search.
@@ -20,7 +20,7 @@ Binary search is all about recursion. It only works on sorted lists, but that's 
 When the function takes in a list and the number it's searching for, you can skip to the middle of the list: if your number is greater than that middle number, look at the right side, otherwise, look at the left side (unless that middle number *is* your number in which case just return that). 
 
 ## PseudoCode
-Alright, let's  do some recursion. 
+Alright, let's  do some recursion. For recursive functions, we need to be wary of parameters.
 
 ## Analysis
 
