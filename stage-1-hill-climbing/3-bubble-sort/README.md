@@ -10,7 +10,7 @@
 7. [Key Words](#key-words "Important terms")
 
 ## Introduction
-Since you've got selection sort down, bubble sort will be pretty easy. They're pretty similar algorithms, relying on relatively simple logic, but bubble sort is **slightly** more efficent, depending on the type of list. Though, they are both very wasteful compared to the algorithms we'll tackle in the stage 2. Anyway, lets practice our coding with some bubble sort!
+Since you've got selection sort down, bubble sort will be pretty easy. They're pretty similar algorithms, relying on relatively simple logic, but bubble sort is another way to sort, with roughly the same efficency. Though, they are both very wasteful compared to the algorithms we'll tackle in the stage 2. Anyway, lets practice our coding with some bubble sort!
 
 ## Theory
 Bubble sort was given its name because the larger would all bubble to the end. Here is an animation of bubble sort:
