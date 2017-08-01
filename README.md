@@ -31,7 +31,7 @@ The Anadromi Project (TAP) is an innovative approach to computer science educati
 6. [Acknowledgements](#acknowledgements)
 
 ## Prerequisites
-Students should be somewhat comfortable the basic concepts of programming: 
+Students should be mostly comfortable the basic concepts of programming: 
 - [x] Variables and simple data types
 - [x] Loops
 - [x] Conditional operators
@@ -66,13 +66,10 @@ The most modern of sorting algorithms, quicksort depicts the mastery of recursio
 ### Time Complexity Part 2
 More on time complexity that will include these three new recursive algorithms.
 
-### Tower of Hanoi
-Hone your skills with a common mathematical puzzle that can be solved through recursion.
-
 ## Stage 3: At the Top
-Using everything learned from the previous lessons, the student will create different algorithmic solutions to the knapsack problem. This is the capstone project of the program.
+Using everything learned from the previous lessons, the student will implement the Fibonacci sequence.
 
-### Greedy
+### Brute Force
 Imagine that you have an empty bag which  you must fill with items, each of these items containing an arbitrary value and cost when taken. What would you take? How can you take the *best* choice? This particular implementation will focus on the greedy algorithm, the philosophy of taking what seems to be the most valuable at the moment.
 
 ### Binary Search Tree
