@@ -37,11 +37,16 @@ Remember for binary check, we had to pass in a sliced version of the list? We ca
 
 In statement ```if(num > ls[mid]):```, we know that ```num``` has to be on the right side of the list because it's greater than what's just in the middle. So, the lowest index ```num``` can possibly have is going to be one more than the middle number index (since the middle number index is smaller). Or if ```num``` is smaller, we take the left side of the list, so we have all the way from the first element to one less than the middle number index (since the middle number index is larger). We keep doing this until we're only ```low``` and ```high``` finds ```mid```.
 
-But we still have to perform a check to see if the element is *not* in the list ay all. When do we know to stop? Since 
+But we still have to perform a check to see if the element is *not* in the list ay all. When do we know to stop? Since ```low``` and ```high``` keep track of which part of the list is partitioned, they will slowly zero in on the list until there is one element. If that last element isn't the one we're looking for, then the element we're looking for doesn't exist. When does that happen? When ```low > high```, meaning the algorithm went through the entire list, zeroed in on an item, and still found no reuslts.
 ## Analysis
+With half the problem being cut off each recursion, the time complexity is log n, more efficent than n. This is far faster than linear search.
 
 ## Extra Resources
-
+1. [CS50 Lecture covering Binary Search](https://youtu.be/jUyQqLvg8Qw?t=12m)
+    * different explanation
+2. [Binary Search Animation by Y. Daniel Liang](http://www.cs.armstrong.edu/liang/animation/web/BinarySearch.html)
+    * visualization
+    
 ## Coding Task
 
 ## Key Words
