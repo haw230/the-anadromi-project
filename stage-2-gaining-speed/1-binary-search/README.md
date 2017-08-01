@@ -48,6 +48,7 @@ With half the problem being cut off each recursion, the time complexity is log n
     * visualization
     
 ## Coding Task
+Go [here](https://github.com/haw230/binary-search) for your coding task!
 
 ## Key Words
 #### Complex Data Structures
