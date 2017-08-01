@@ -1,21 +1,5 @@
 # Merge Sort
 
-## Table of Contents
-1. [Introduction](#introduction "Why the heck is this important?")
-2. [Theory](#theory "Alright, how the heck do I do this?")
-3. [PseudoCode](#pseudocode "Let's kinda code this!")
-4. [Analysis](#analysis "A bit info")
-5. [Extra Resources](#extra-resources "Wanna learn more!")
-6. [Coding Task](#coding-task "Coding challenge")
-
-## Introduction
-
-## Theory
-
-## PseudoCode
-
-## Analysis
-
-## Extra Resources
-
-## Coding Task
+Merge sort works by calling itself yet dividing the list into smaller portions. Then, the smaller portions are individually sorted and merged back together, hence the name merge sort. It's far faster than bubble and selection sort, shown in this graph.
+![graph](https://github.com/haw230/the-anadromi-project/blob/pictures/s_vs_b_vs_m.png)
+Go [here] to complete the coding task!
