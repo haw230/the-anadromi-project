@@ -8,7 +8,7 @@
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/haw230/the-anadromi-project/master/LICENSE)
 [![tweet](https://img.shields.io/twitter/url/https/github.com/haw230/the-anadromi-project.svg?style=social)](https://twitter.com/anadromi)
 
-The Anadromi Project (TAP) is an innovative approach to computer science education. Armed with Python, this revolutionary open source program focuses on teaching the bright leaders of tomorrow necessary tools for **recursive problem solving** and **algorithmic thinking**. These skills are applicable and essential to both the computer science field as well as other disciplines.
+The Anadromi Project is an innovative approach to computer science education. Armed with Python, this revolutionary open source program focuses on teaching the bright leaders of tomorrow necessary tools for **recursive problem solving** and **algorithmic thinking**. These skills are applicable and essential to both the computer science field as well as other disciplines.
 
 ## Table of Contents
 1. [Prerequisites](#prerequisites "What you might want to know before starting")
