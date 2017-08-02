@@ -23,7 +23,7 @@ The Anadromi Project is an innovative approach to computer science education. Ar
     * [Quicksort](#quicksort "A very quick way to sort")
     * [Time Complexity Part 2](#time-complexity-part-1 "More measuring efficency!")
 4. [Stage 3: At the Top](#stage-3-at-the-top "Final stage!")
-    * [Greedy](#greedy "Greedy but short-sighted")
+    * [Fibonacci](#Iterative Fibonacci "Iterative but inelegant")
     * [Binary Search Tree](#binary-search-tree "Optimal but tiring")
     * [Dynamic Programming](#dynamic-programming "Optimizing the tree")
 5. [License](#license)
@@ -68,7 +68,7 @@ More on time complexity that will include these three new recursive algorithms.
 ## Stage 3: At the Top
 Using everything learned from the previous lessons, the student will implement the Fibonacci sequence.
 
-### Iterative Brute Force
+### Iterative Fibonacci
 Solve Fibonacci with brute force.
 
 ### Binary Search Tree
