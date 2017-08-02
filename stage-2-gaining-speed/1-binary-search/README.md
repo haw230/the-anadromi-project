@@ -13,7 +13,7 @@
 [*Recursion*](#recursion "Anadromi") is the pinnacle of effective programming. It's complex, it's elegant, and it's effective. The binary search we will be writing today has the time complexity of O(log n) instead of linear search's O(n).
 ![Graph](https://github.com/haw230/the-anadromi-project/blob/pictures/linear_vs_log.png)
 Even if you don't know how logarithms work, you can still see from the graph that a logarithmic function is much more efficent than a linear one. The graph about shows the difference between the two algorithms in time complexity, but this graph shows the difference in performance visualized.
-![Graph](https://github.com/haw230/the-anadromi-project/blob/pictures/cool_looking_graph.png)
+![Graph](https://github.com/haw230/the-anadromi-project/blob/pictures/l_vs_b_titled.png)
 The program used to make this graph measured the time it took to run either function on a randomly generated list and a random element in that list (the element was always found in the list). As you can see, linear search's runtime varies greatly, depending on where it is, but even some of linear search's best times are just close to binary search's average times.
 
 Binary search relies on dividing and conquering, very similar to the [binary check](https://github.com/haw230/the-anadromi-project/tree/master/stage-2-gaining-speed), which allows it to actually run **faster** than the input size of n. Unlike binary check, we aren't returning a Boolean—we're going to have to return the index.
