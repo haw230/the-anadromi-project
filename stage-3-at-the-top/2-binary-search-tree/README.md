@@ -13,4 +13,7 @@ def fib(n):
 Go [here](https://github.com/haw230/recursive-fibonacci) for your coding task.
 
 When you're done and the tests ran successfully, try uncommenting the last test (located in ```tests``` folder<```test_main.py```>the class```TestCases(Object)```>the method ```def tests(self)```):
+
 ![c9](https://github.com/haw230/the-anadromi-project/blob/pictures/uncomment.png)
+
+Run it again and see what happens! (Or, to be price, what doesn't happen)
