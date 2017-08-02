@@ -14,3 +14,20 @@ def fib(n):
         #add fn0's original value to fn1
     return fn0
 ```
+The reason we return ```fn0``` instead of ```fn1``` is because ```fn0``` stores the place of the iteration. That means on the first iteration (where ```i``` is 0), ```fn0``` stores the first Fibonacci number, while ```fn1``` stores the second. Here's a more visual representation:
+```
+#first iteration start
+i = 0, fn0 = 1, fn1 = 1
+
+#second iteration start
+i = 1, fn0 = 1, fn1 = 2
+
+#third iteration start
+i = 2, fn0 = 2, fn1 = 3
+
+#fourth iteration start
+i = 1, fn0 = 3, fn1 = 5
+
+#fifth iteration start
+i = 2, fn0 = 5, fn1 = 8
+```
