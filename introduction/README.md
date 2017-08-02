@@ -26,6 +26,22 @@ Click the green "Clone or download" button and then click "Use SSH". It should r
 ![Open](https://github.com/haw230/the-anadromi-project/blob/pictures/intro/step6_1.png)
 
 Go to C9 and open up a new workspace.
+
 ![Paste](https://github.com/haw230/the-anadromi-project/blob/pictures/intro/step6_2.png)
 
 Type in the name you want your workspace to be, paste in the link to clone, and choose Python as the template.
+
+### Step 7: Write the Algorithm
+![Algo](https://github.com/haw230/the-anadromi-project/blob/pictures/intro/step7.png)
+
+Open up the folder with the algorithm's name and open up ```main.py```. There, you can edit the function and write in the algorithm.
+
+### Step 8: Test It
+![test](https://github.com/haw230/the-anadromi-project/blob/pictures/intro/step8.png)
+
+When you're done, type in ```make test``` to run the tests and the tests will run.
+
+### Step 9: Update the Code on GitHub
+![git](https://github.com/haw230/the-anadromi-project/blob/pictures/intro/step9.png)
+
+Type ```git add -A```, ```git commit -, 'Message'```, and then ```git push``` to push your code onto your repository.
