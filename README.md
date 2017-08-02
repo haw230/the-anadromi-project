@@ -22,7 +22,6 @@ The Anadromi Project (TAP) is an innovative approach to computer science educati
     * [Merge Sort](#merge-sort "Efficent way to sort")
     * [Quicksort](#quicksort "A very quick way to sort")
     * [Time Complexity Part 2](#time-complexity-part-1 "More measuring efficency!")
-    * [Tower of Hanoi](#tower-of-hanoi "Solve a logic puzzle!")
 4. [Stage 3: At the Top](#stage-3-at-the-top "Final stage!")
     * [Greedy](#greedy "Greedy but short-sighted")
     * [Binary Search Tree](#binary-search-tree "Optimal but tiring")
@@ -69,11 +68,11 @@ More on time complexity that will include these three new recursive algorithms.
 ## Stage 3: At the Top
 Using everything learned from the previous lessons, the student will implement the Fibonacci sequence.
 
-### Brute Force
-Imagine that you have an empty bag which  you must fill with items, each of these items containing an arbitrary value and cost when taken. What would you take? How can you take the *best* choice? This particular implementation will focus on the greedy algorithm, the philosophy of taking what seems to be the most valuable at the moment.
+### Iterative Brute Force
+Solve Fibonacci with brute force.
 
 ### Binary Search Tree
-Rather than greedily taking whatever is most valuable, the binary search tree algorithm will search **all** combinations of items and then decide what is *best*.
+Solve Fibonacci recursively with a search tree
 
 ### Dynamic Programming
 Dynamic programming will build on the binary search tree implementation, improving the efficency of the program.
