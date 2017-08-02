@@ -14,14 +14,18 @@ When you've finished a lesson, there will be a coding task waiting for you. The 
 
 ### Step 4: Fork the Coding Task Repo
 ![Fork](https://github.com/haw230/the-anadromi-project/blob/pictures/intro/step4.png)
+
 Click "fork" on the top right corner. This creates a fork on your account of the repository, so you can edit it however you like.
 
 ### Step 5: Clone It
 ![Clone](https://github.com/haw230/the-anadromi-project/blob/pictures/intro/step5.png)
+
 Click the green "Clone or download" button and then click "Use SSH". It should read "git@github.com:username/project-name". Keep it copied, we'll need it later.
 
 ### Step 6: Open a Workspace
 ![Open](https://github.com/haw230/the-anadromi-project/blob/pictures/intro/step6_1.png)
+
 Go to C9 and open up a new workspace.
 ![Paste](https://github.com/haw230/the-anadromi-project/blob/pictures/intro/step6_2.png)
+
 Type in the name you want your workspace to be, paste in the link to clone, and choose Python as the template.
