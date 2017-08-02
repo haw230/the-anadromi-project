@@ -31,10 +31,12 @@ i = 3, fn0 = 3, fn1 = 5
 #fifth iteration start
 i = 4, fn0 = 5, fn1 = 8
 ```
-| i  | fn0  |  fn1 |
+| ```i```  | ```fn0```  |  ```fn1``` |
 |---|---|---|
-|  0 |   |   |
-|  1 |   |   |
-|  2 |   |   |
-|  3 |   |   |
-|  4 |   |   |
+|  0 | 1  | 1  |
+|  1 |  1 |  2 |
+|  2 |  2 |   3|
+|  3 |  3 |   5|
+|  4 |  5 |   8|
+
+```i``` is place of the element and ```fn0``` is the sequence, but ```fn1``` is what comes next in the sequence.
