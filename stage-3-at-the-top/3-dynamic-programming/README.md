@@ -46,10 +46,22 @@ Let's run this PseudoCode in our heads:
 Calling fib() with 5
 Execution Stack: fib(5)
 #then it will call
-Execution Stack: fib(4), fib(3)
+Execution Stack: fib(4) + fib(3)
 #heading down the left side of the tree, fib(4) will run first
-Execution Stack: fib(3), fib(2), fib(3)
+Execution Stack: fib(3)+ fib(2), fib(3)
 #travelling down fib(3)
-Execution Stack: fib(2), fib(1), fib(2), fib(3)
+Execution Stack: fib(2)+ fib(1), fib(2), fib(3)
+#at the leaves
+Execution Stack: fib(1)+ fib(0), fib(1), fib(2), fib(3)
+#fib(1) and fib(0) both return one, so the dictionary stores that fib(2) returns 2
+Execution Stack: 2 + fib(1), fib(2), fib(3)
+#stores that fib(3) returns 3
+3 + fib(2), fib(3)
+#quickly looks up fib(2), which returns 2
+5 + fib(3)
+#looks up fib(3), which returns 3
+8
 ```
+For something this small it might not seem like much, but this will make a huge difference for larger inputs, espcially ```fib(60)``` (since exponential running time grows super fast).
+
 Go [here](https://github.com/haw230/dynamic-fibonacci) for the coding task.
