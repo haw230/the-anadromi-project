@@ -23,9 +23,9 @@ The Anadromi Project is an innovative approach to computer science education. Ar
     * [Quicksort](#quicksort "A very quick way to sort")
     * [Time Complexity Part 2](#time-complexity-part-1 "More measuring efficency!")
 4. [Stage 3: At the Top](#stage-3-at-the-top "Final stage!")
-    * [Fibonacci](#Iterative Fibonacci "Iterative but inelegant")
-    * [Binary Search Tree](#binary-search-tree "Optimal but tiring")
-    * [Dynamic Programming](#dynamic-programming "Optimizing the tree")
+    * [Iterative Fibonacci](#iterative-fibonacci "Iterative but inelegant")
+    * [Recursive Fibonacci](#recursive-fibonacci "Optimal but tiring")
+    * [Dynamic Fibonacci](#dynamic-fibonacci "Optimizing the tree")
 5. [License](#license)
 6. [Acknowledgements](#acknowledgements)
 
@@ -71,10 +71,10 @@ Using everything learned from the previous lessons, the student will implement t
 ### Iterative Fibonacci
 Solve Fibonacci with brute force.
 
-### Binary Search Tree
+### Recursive Fibonacci
 Solve Fibonacci recursively with a search tree
 
-### Dynamic Programming
+### Dynamic Fibonacci
 Dynamic programming will build on the binary search tree implementation, improving the efficency of the program.
 
 ## License
