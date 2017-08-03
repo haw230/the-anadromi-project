@@ -5,7 +5,7 @@
 - [x] Get a cool logo
 - [x] Finish README.md
 - [x] Create sub-directories for each lesson
-- [ ] Make C9 and GitHub intro
+- [x] Make C9 and GitHub intro
 
 ### Testing
 - [x] Solve "module not found" error
@@ -23,15 +23,15 @@
 - [X] Time complexity Part 1
 
 #### Stage 2: Gaining Speed
-- [ ] Binary search
-- [ ] Merge sort
-- [ ] Quicksort
+- [x] Binary search
+- [x] Merge sort
+- [x] Quicksort
 - [ ] Time complexity Part 2
-- [ ] Tower of Hanoi
 
 #### Stage 3: At the Top
-- [ ] Binary Search Tree
-- [ ] Dynamic Programming
+- [x] Iterative Fibonacci
+- [x] Recursive Fibonacci
+- [x] Dynamic Fibonacci
 
 ### Final
 - [ ] Review all lessons
