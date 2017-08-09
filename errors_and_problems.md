@@ -33,7 +33,7 @@ sys.path.insert(0, '/path/to/file') #adds path to the front(in case of duplicate
 Use `print(sys.path)` to check whether or not the right paths are there, then use `sys.insert(0, '/path/to/file')` to add the path.
 
 #### Can't open Anaconda [Solved]
-[StackOverflow](https://stackoverflow.com/questions/18675907/how-to-run-conda). Basically, just run ```export PATH=~/anaconda3/bin:$PATH```, the number following anaconda is your version number. Then, all the ```conda``` commands will work.
+[StackOverflow](https://stackoverflow.com/questions/18675907/how-to-run-conda). Basically, just run ```export PATH=~/anaconda3/bin:$PATH```, the number following anaconda is your version number. Then, all the ```conda``` commands will work. So use ```conda create -n yourenvname python=x.x anaconda``` to make an environment and then ```source activate yourenvname```. ([Tutorial](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/)
 
 #### Installing Anaconda on Linux [Solved]
 
