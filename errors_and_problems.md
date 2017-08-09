@@ -31,3 +31,10 @@ print(sys.path) #prints out all module search paths
 sys.path.insert(0, '/path/to/file') #adds path to the front(in case of duplicates checked before
 ```
 Use `print(sys.path)` to check whether or not the right paths are there, then use `sys.insert(0, '/path/to/file')` to add the path.
+
+#### Can't open Anaconda [Solved]
+[StackOverflow](https://stackoverflow.com/questions/18675907/how-to-run-conda). Basically, just run ```export PATH=~/anaconda3/bin:$PATH```, the number following anaconda is your version number. Then, all the ```conda``` commands will work.
+
+#### Installing Anaconda on Linux [Solved]
+
+Follow the [tutorial](https://docs.continuum.io/anaconda/install/linux)
