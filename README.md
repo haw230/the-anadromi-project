@@ -53,28 +53,28 @@ This rather abstract concept is introduced rather early on in order to demonstra
 ## [Stage 2: Gaining Speed](https://github.com/haw230/the-anadromi-project/tree/master/stage-2-gaining-speed)
 This stage focuses on the transition to more complicated algorithms that introduce recursion.
 
-### [Binary Search]()
+### [Binary Search](https://github.com/haw230/the-anadromi-project/tree/master/stage-2-gaining-speed/1-binary-search)
 Binary search is a searching algorithm that works only on ordered lists, though far faster than the previous linear search. The theory behind it is not difficult to understand, but it will introduce the Three Laws of Recursion and feature its application.
 
-### [Merge Sort]()
+### [Merge Sort](https://github.com/haw230/the-anadromi-project/tree/master/stage-2-gaining-speed/2-merge-sort)
 Merge sort builds on the recursive foundation binary search introduced previously, sorting a list far faster than selection sort and bubble sort by a large margin.
 
-### [Quicksort]()
+### [Quicksort](https://github.com/haw230/the-anadromi-project/tree/master/stage-2-gaining-speed/3-quicksort)
 The most modern of sorting algorithms, quicksort depicts the mastery of recursion and shows readiness to move onto dynamic programming.
 
-### [Time Complexity Part 2]()
+### [Time Complexity Part 2](https://github.com/haw230/the-anadromi-project/tree/master/stage-2-gaining-speed/4-time-complexity-part-2)
 More on time complexity that will include these three new recursive algorithms.
 
-## Stage 3: At the Top
+## [Stage 3: At the Top](https://github.com/haw230/the-anadromi-project/tree/master/stage-3-at-the-top)
 Using everything learned from the previous lessons, the student will implement the Fibonacci sequence.
 
-### [Iterative Fibonacci]()
+### [Iterative Fibonacci](https://github.com/haw230/the-anadromi-project/tree/master/stage-3-at-the-top/1-iter-fibonacci)
 Solve Fibonacci with brute force.
 
-### [Recursive Fibonacci]()
-Solve Fibonacci recursively with a search tree
+### [Recursive Fibonacci](https://github.com/haw230/the-anadromi-project/tree/master/stage-3-at-the-top/2-binary-search-tree)
+Solve Fibonacci recursively with a search tree.
 
-### [Dynamic Fibonacci]()
+### [Dynamic Fibonacci](https://github.com/haw230/the-anadromi-project/tree/master/stage-3-at-the-top/3-dynamic-programming)
 Dynamic programming will build on the binary search tree implementation, improving the efficency of the program.
 
 ## License
