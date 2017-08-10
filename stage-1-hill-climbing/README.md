@@ -1,5 +1,5 @@
 # Stage 1: Hill Climbing
-Welcome to the first stage of The Anadromi Project. Here you will get your feet wet by learning three different algorithms and implementing each with your own code. 
+Welcome to the first stage of The Anadromi Project. Here you will get your feet wet by learning three different algorithms and implementing each with your own code. If you don't have any experience with either GitHub or Cloud9, go [here](https://github.com/haw230/the-anadromi-project/tree/master/introduction) for a short tutorial on how to complete the coding tasks.
 
 Each lesson will have 7 sections, each playing a vital role to your learning. These consist of:
 ### 1. Introduction
