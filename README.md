@@ -36,7 +36,7 @@ Students should be mostly comfortable the basic concepts of programming:
 - [x] Conditional operators
 - [x] Functions
 
-## Stage 1: Hill Climbing
+## [Stage 1: Hill Climbing](https://github.com/haw230/the-anadromi-project/tree/master/stage-1-hill-climbing)
 This stage will focus on simple but inefficent algorithms that neatly fuse the basics of programming, preparing the student for more advanced concepts.
 ### [Linear Search](https://github.com/haw230/the-anadromi-project/tree/master/stage-1-hill-climbing/1-linear-search)
 Students will start off with a basic implementation of a linear search, a search algorithm that finds the index of a specific element in a list.
@@ -50,31 +50,31 @@ Another sorting algorithm exercise to practice coding skills.
 ### [Time Complexity Part 1](https://github.com/haw230/the-anadromi-project/tree/master/stage-1-hill-climbing/4-time-complexity-part-1)
 This rather abstract concept is introduced rather early on in order to demonstrate the efficency of the previously learned algorithms. Time complexity provides a nice segway into recursion and answers the question to *why* we need these efficent yet terribly complex algorithms.
 
-## Stage 2: Gaining Speed
+## [Stage 2: Gaining Speed](https://github.com/haw230/the-anadromi-project/tree/master/stage-2-gaining-speed)
 This stage focuses on the transition to more complicated algorithms that introduce recursion.
 
-### Binary Search
+### [Binary Search]()
 Binary search is a searching algorithm that works only on ordered lists, though far faster than the previous linear search. The theory behind it is not difficult to understand, but it will introduce the Three Laws of Recursion and feature its application.
 
-### Merge Sort
+### [Merge Sort]()
 Merge sort builds on the recursive foundation binary search introduced previously, sorting a list far faster than selection sort and bubble sort by a large margin.
 
-### Quicksort
+### [Quicksort]()
 The most modern of sorting algorithms, quicksort depicts the mastery of recursion and shows readiness to move onto dynamic programming.
 
-### Time Complexity Part 2
+### [Time Complexity Part 2]()
 More on time complexity that will include these three new recursive algorithms.
 
 ## Stage 3: At the Top
 Using everything learned from the previous lessons, the student will implement the Fibonacci sequence.
 
-### Iterative Fibonacci
+### [Iterative Fibonacci]()
 Solve Fibonacci with brute force.
 
-### Recursive Fibonacci
+### [Recursive Fibonacci]()
 Solve Fibonacci recursively with a search tree
 
-### Dynamic Fibonacci
+### [Dynamic Fibonacci]()
 Dynamic programming will build on the binary search tree implementation, improving the efficency of the program.
 
 ## License
